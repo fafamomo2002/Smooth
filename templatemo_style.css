@@ -1,0 +1,182 @@
+  	#pp1 a:link{
+	//設定還沒有瀏覽過的連結
+	font-size:30px;
+	color: #fff;
+	text-decoration: none;
+	}
+	#pp1 a:visited {
+	//設定已經瀏覽過的連結
+	font-size:30px;
+	color: #fff;
+	text-decoration: none;
+	
+	}
+	#pp1 a:hover {
+	//設定滑鼠移經的連結
+	
+
+	text-decoration: underline;
+	
+	color:#19d1c7;
+	}
+	#pp1 a:active {
+	//設定正在點選的連結
+	text-decoration:none;
+	
+	
+	color: #19d1c7;
+	}
+	/*最新消息的*/
+	
+/*服務項目圖片放大效果*/
+
+.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+.pic img:hover{transform:scale(1.2,1.2);}
+	
+	
+/* ?嵌 */
+
+.serviceitem{
+	/*調整服務項目各個圖示間距 處理列的*/
+	  margin-top: 4px;
+  margin-bottom: 25px;
+  
+
+	}
+.serviceitem_a{
+	/*調整服務項目各個圖示間距 處理列的*/
+
+  
+
+  padding-bottom: 25px;
+	}	
+
+
+hr.style-six {
+	/*分隔線用 但現在沒用到*/
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+	/*width:50%; */
+	
+}
+
+
+h3.title {
+    font-size: 4em;
+    text-align: center;
+    color: #19d1c7;
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+
+#TestImg3{
+     vertical-align:middle;
+	/*圖片文字對齊*/
+}
+#SeperationLine{
+    height:1px;
+    border-top:1px #ccc dashed;
+    margin:10px 0px;
+}
+  
+  body {
+	
+	background-image: url("images/whitenoise-361x370.png");
+	background-color: #373737;
+	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+		}
+
+		/*滿版的圖*/
+.bg { 
+  /* The image used */
+  background-image: url("images/College.jpg");
+
+  /* Full height */
+  height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+ 	 .logo {
+  	background-image: url(images/Balance.svg);
+	}
+	
+	.svg-background {
+ 	 background-image: url(images/Balance.svg);
+ 	 width: 100px;
+ 	 height: 100px;
+	}	
+	
+	.chul li {
+			margin: 0;
+	padding: 36px 0 36px 84px;
+	list-style: none;
+    list-style-image:url('images/Paper-Plane-128.png');
+		background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+    }
+	
+	.Transparent{
+
+				/*最新資訊的背景陰影*/
+                margin: 0px 30px 0px 0px;
+				padding:0px 0px 0px 0x;
+                border:1px solid #4d4d4d;
+                border-radius: 3px;
+                /**background-color:rgb(0,152,50);**/
+                background-color: #373737;
+                opacity: 0.99;
+                filter:alpha(opacity=90);
+                box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.42);
+
+
+            }
+		#shadowabc{
+			filter:drop-shadow(5px 5px 10px black);
+			/*drop-shadow*/
+		}
+			
+	.div-inline{ float:left;} 
+	
+     .header{
+		 min-height: 100vh;
+		 
+
+
+		/* background-image:url(https://images.unsplash.com/photo-1447023029226-ef8f6b52e3ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);*/
+		 background-image:url(images/College.jpg);
+		 background:-size: cover;
+		 background-position: center center;
+		 background-attachment:fixed; /*固定圖片用*/
+
+	 }
+	 .btn-outline-light:hover{
+		 color:#333;
+	 }
+	 
+	 .bg-cover{
+		 background-position: center center;
+		 background-attachment:fixed;
+
+	 }
+	 
+	 .bg-attachment{
+		 background-attachment:fixed;
+	 
+	 }
+	 
+	 .navbar-center {
+ 	 	display: inline-block;
+  		float: none;
+ 		 vertical-align: top;
+	}
+
+	.navbar-collapse-center {
+  		text-align: center;
+	}
