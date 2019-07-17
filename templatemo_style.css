@@ -28,6 +28,27 @@
 	}
 	/*最新消息的*/
 	
+	.thim-click-to-bottom {
+		/*引導式按鈕*/
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+.thim-click-to-bottom i {
+	/*接引導式按鈕*/
+    color: #fff;
+    padding: 20px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+	font-size: 15px;
+}
+	
 /*服務項目圖片放大效果*/
 
 .pic img{transform:scale(1,1);transition: all 1s ease-out;}
@@ -125,8 +146,8 @@ h3.title {
 	.Transparent{
 
 				/*最新資訊的背景陰影*/
-                margin: 0px 30px 0px 0px;
-				padding:0px 0px 0px 0x;
+                margin: 0px 0px 0px 0px;
+				padding:0px -40px 0px 0px;
                 border:1px solid #4d4d4d;
                 border-radius: 3px;
                 /**background-color:rgb(0,152,50);**/
