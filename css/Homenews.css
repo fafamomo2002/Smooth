@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+/*主頁新聞表格*/
+
+
+body{
+   margin:0;
+   padding:0;
+}
+
+.pricing-table{
+  max.width:1200px;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  flex-wrap:wrap;
+  
+
+}
+
+.col{
+  flex:45%;
+  padding:10px;
+  max-width:320px;
+  box-sizing: botder-box;
+  
+
+  
+
+}
+
+.table{
+ background:#434343;
+ padding:30px 20px;
+ font-family:"montserrat",sans-serif;
+
+ color:#ffffff;
+ position:relative;
+ overflow:hidden;/*�۰����öW�X����r�ιϤ��C*/
+ box-shadow:8px 8px 1px  #2f3030;/*�ج[���v*/
+ 
+  border-style:solid;
+    border-width:5px;/*框粗細*/
+	
+	border-radius:6px;/*圓框角度*/
+  border-color:#88dfd6;
+  
+
+ 
+ 
+}
+
+.table h2{
+ text-transform:uppercase;/*��r���j�g*/
+   font-size:25px;
+   
+   color:#19d1c7;
+ overflow:hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;/*�o�T�q���h�l����r�e�{...*/
+}
+.table ul{
+margin:0;
+padding:0;
+}
+
+.table ul li{
+ padding:5px 0;
+ list-style:none;
+ text-align:left;
+ 
+/*�o�|��O����h��e�{...*/
+overflow:hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+white-space: normal;
+}
+
+
+.time span{
+  display:block;
+  font-size:14px;
+  text-align:right;
+    padding-top:2px;
+  padding-bottom:9px;
+  padding-right:9px;
+}
+
+.table a{
+text-decoration:none;
+color:#88dfd6;
+border:2px solid #88dfd6;
+display:block;
+padding:10px 0;
+margin:10px 0;
+border-radius:40px;
+text-transform:uppercase;
+font-size:14px;
+transition:0.5s linear;
+}
+	  
+.table a:hover{
+ background: #19d1c7;
+ color:#fff;
+}
+
+@media screen and (max-width:980px){
+ 	.col{
+	   flex:50%;
+	}
+}
+
+@media screen and (max-width:700px){
+ 	.col{
+	   flex:100%;
+	}
+}

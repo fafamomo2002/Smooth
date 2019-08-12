@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+* @description: 1.版塊陰影、置底陰影、大標文字格式
+* @author: name
+* @update: name (2013-04-13 18:32)
+*/
+
+
+.sectionbox{
+	background-color:#363636; 
+
+	box-shadow:inset 0px 6px 1px  rgba(34,34,34,1);
+}
+
+.sectionbox2{
+	background-color:#363636; 
+
+	box-shadow:inset 0px 6px 1px  rgba(27,27,27,1);
+	
+	min-height:800px;
+}
+
+.footerbox{
+
+  background-color:#272727; 
+  
+  color:#f2ff98; 
+  width:100%; 
+  height:100%;
+  
+  
+  box-shadow:inset 0px 6px 3px rgba(30,30,30,1);
+}
+
+
+
+
+.h1fonts{
+	
+	
+font-family: "Noto Sans TC", STHeitiTC-Light, "Microsoft JhengHei", sans-serif;
+	
+	}
