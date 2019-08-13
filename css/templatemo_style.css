@@ -1,7 +1,4 @@
-@charset "utf-8";
-/* CSS Document */
-
-/*目前PP1用到的有服務項目*/
+ /*目前PP1用到的有服務項目*/
  
     #pp1 a:link{
 	//設定還沒有瀏覽過的連結
@@ -127,7 +124,7 @@ hr.style-six {
 
 
 h3.title {
-    font-size: 2.6em;
+    font-size: 2em;
     text-align: center;
     color: #19d1c7;
 	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
@@ -247,4 +244,19 @@ h3.title {
   		text-align: center;
 	}
 	
+
+
+.contactusframe{
+
+		position:relative;
+	width:calc(100% - 0px);
+	min-height:300px;
+	background:#313232;
+	overflow:hidden;/*讓外框完全包覆內元素*/
 	
+	border-style:solid;
+    border-width:1px;/*框粗細*/
+	
+	border-radius:0px;/*圓框角度*/
+    border-color:#4a4a4a;
+}
