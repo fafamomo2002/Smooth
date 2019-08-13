@@ -25,15 +25,8 @@
 
 
 <link href="../css/subpage.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
+<link rel="stylesheet" href="../css/libs/animate.css" type="text/css">  
 
-
-p {
-	text-indent: 1cm;
-	font-size: 16px;
-	font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif;
-}
-</style>
 
 
   
@@ -117,19 +110,19 @@ p {
     <section class="py-5 bg-attachment bg-cover sectionbox"  >
    <div class="container text-white ">
    
-      <h3 class="text-center title"><img id="TestImg3" src="../images/Student-Laptop-128.png"> 聯絡我們</h3>
+      <h3 class="text-center title wow fadeInDown"><img id="TestImg3" src="../images/Student-Laptop-128.png"> 聯絡我們</h3>
       
      <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
  
 
-			<div  class="container">
+			<div  class="container contactusframe">
 
 				<div   class="row ">
 
-					<div  class="col-xs-6 col-sm-6  " style="text-align:left; display:block;">
+					<div  class="col-xs-6 col-sm-6 wow fadeInDown" data-wow-delay="0.2s" style="text-align: left; display:block; padding:35px 0px 0px 42px;">
                            
                                 
-                                 
+                              <p > 元華法律事務所</p></br>   
                               <p > 地址：106臺北市大安區忠孝東路四段221號10樓。</p>
                               <p > 電話：02-89513737</p> 
                               <p > 傳真：02-89513767</p>
@@ -141,10 +134,10 @@ p {
 
                       </div>
                       
-                       <div  class="col-xs-6 col-sm-6  " style="text-align:left; display:block;">
+                       <div  class="col-xs-6 col-sm-6 wow fadeInDown" data-wow-delay="0.5s" style="text-align:left; display:block; 	border-style:solid; border-width:0px; margin:0 0 0 0 ; padding:0 0 0 0;">
                                 
 
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7760233696486!2d121.55032931535139!3d25.041673983968824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abc5c62b1c13%3A0x1fd18eead4eade42!2zMTA25Y-w54Gj5Y-w5YyX5biC5aSn5a6J5Y2A5b-g5a2d5p2x6Lev5Zub5q61MjIx6JmfMTA!5e0!3m2!1szh-TW!2sus!4v1565157319135!5m2!1szh-TW!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.7760233696486!2d121.55032931535139!3d25.041673983968824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abc5c62b1c13%3A0x1fd18eead4eade42!2zMTA25Y-w54Gj5Y-w5YyX5biC5aSn5a6J5Y2A5b-g5a2d5p2x6Lev5Zub5q61MjIx6JmfMTA!5e0!3m2!1szh-TW!2sus!4v1565157319135!5m2!1szh-TW!2sus" width="600" height="480" frameborder="0" style="border:0; margin:0 0 0 0 ; padding:0 0 0 0;" allowfullscreen></iframe>
                                 
                        </div>
 							
@@ -173,6 +166,23 @@ p {
      
     </section>
 
-  
+  <script src="../dist/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>   
 </body>
 </html>

@@ -25,6 +25,7 @@
 
 
 <link href="../css/subpage.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/libs/animate.css" type="text/css">  
 <style type="text/css">
 
 
@@ -117,7 +118,7 @@ p {
     <section class="py-5 bg-attachment bg-cover sectionbox"  >
    <div class="container text-white ">
    
-      <h3 class="text-center title"><img id="TestImg3" src="../images/Student-Laptop-128.png"> 法律顧問</h3>
+      <h3 class="text-center title wow fadeInDown"><img id="TestImg3" src="../images/Student-Laptop-128.png"> 法律顧問</h3>
       
      <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
  
@@ -171,6 +172,24 @@ p {
      
     </section>
 
+  <script src="../dist/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>  
   
 </body>
 </html>

@@ -27,6 +27,8 @@
 <link href="../css/subpage.css" rel="stylesheet" type="text/css" />
 
 <link href="../css/teamstyle.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="../css/libs/animate.css" type="text/css">  
 <style type="text/css">
 
 
@@ -115,18 +117,18 @@ p {
 
  <section class="py-5 sectionbox" >
       <div class="container ">          	 
-
+        <h3 class="text-center title wow fadeInDown"><img id="TestImg3" src="../images/Student-Laptop-128.png"> 團隊介紹</h3>
 
             <div class="teambody">
              <div class="teamcontainer">
-                    <div class="card">
+                    <div class="card wow fadeInDown">
                             <div class="imgBx">
                                 <img src="../images/img2.jpg" >
                                 
                             </div>
-                            <div class="details">
+                            <div class="details ">
                                     <div class="content">
-                                        <h2>黃雅筑 律師<br><span> </span></br>
+                                        <h2 >黃雅筑 律師<br><span> </span></br>
                                         
                                         </h2>
                                         <ul>
@@ -152,7 +154,7 @@ p {
                        </div>
                        
                        
-                    <div class="card">
+                    <div class="card wow fadeInDown">
                             <div class="imgBx">
                                 <img src="../images/img1.jpg" >
                                 
@@ -186,7 +188,7 @@ p {
                        
                        
                        
-                    <div class="card">
+                    <div class="card wow fadeInDown">
                             <div class="imgBx">
                                 <img src="../images/img1.jpg" >
                                 
@@ -220,7 +222,7 @@ p {
                        
                        
                        
-                    <div class="card">
+                    <div class="card wow fadeInDown">
                             <div class="imgBx">
                                 <img src="../images/img1.jpg" >
                                 
@@ -253,7 +255,7 @@ p {
                        </div>
                        
                        
-                       <div class="card">
+                       <div class="card wow fadeInDown">
                             <div class="imgBx">
                                 <img src="../images/img1.jpg" >
                                 
@@ -324,6 +326,25 @@ p {
      
     </section>
 
+
+  <script src="../dist/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
   
 </body>
 </html>
