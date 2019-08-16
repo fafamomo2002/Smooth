@@ -11,22 +11,24 @@
 .sectionbox{
 	background-color:#363636; 
 
-	box-shadow:inset 0px 6px 1px  rgba(34,34,34,1);
+	box-shadow:inset 0px 3px 1px  rgba(34,34,34,1);
 }
 
 .sectionbox2{
 	background-color:#363636; 
 
-	box-shadow:inset 0px 6px 1px  rgba(27,27,27,1);
+	box-shadow:inset 0px 3px 1px  rgba(27,27,27,1);
 	
-	min-height:800px;
+	min-height:600px;
+	
+	padding-bottom:60px;
 }
 
 .footerbox{
 
-  background-color:#272727; 
+  /*background-color:#272727; */
   
-  color:#f2ff98; 
+  color:#fffff4; 
   width:100%; 
   height:100%;
   

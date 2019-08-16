@@ -38,12 +38,12 @@ body{
  color:#ffffff;
  position:relative;
  overflow:hidden;/*�۰����öW�X����r�ιϤ��C*/
- box-shadow:8px 8px 1px  #2f3030;/*�ج[���v*/
+ box-shadow:5px 5px 1px  #2f3030;/*�ج[���v*/
  
   border-style:solid;
     border-width:3px;/*框粗細*/
 	
-	border-radius:8px;/*圓框角度*/
+	border-radius:1px;/*圓框角度*/
   border-color:#16d4bb;
   
 
