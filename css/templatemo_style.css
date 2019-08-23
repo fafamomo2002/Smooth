@@ -5,13 +5,13 @@
     #pp1 a:link{
 	//設定還沒有瀏覽過的連結
 	font-size:5px;
-	color: #fff;
+	color: #19d1c7;
 	text-decoration: none;
 	}
 	#pp1 a:visited {
 	//設定已經瀏覽過的連結
 	font-size:5px;
-	color: #fff;
+	color: #19d1c7;
 	text-decoration: none;
 	
 	}
@@ -21,7 +21,7 @@
 
 	text-decoration: underline;
 	
-	color:#19d1c7;
+	color:#29fff3;
 	}
 	#pp1 a:active {
 	//設定正在點選的連結
@@ -220,18 +220,26 @@ h3.title {
 	
 	} 
 
+
+
 	.newbox ul li{ 
 	/*list-style:none;*/
+	padding:0px 0 0 0;
+	margin:0px 0 0 0 ;
 	} 
 
 	.newbox ul li p{ 
-	color:#666;
+	color:#c6cac9;
 	margin:5px 0 0px 0;
+		
 	} 
 	
 	.newbox ul li span{ 
 	float:right;
-	padding-right:10px;
+	padding-right:5px;
+	margin-right:10px;
+	font-size:5px;
+
 	} 
 	
 	
