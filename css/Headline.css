@@ -28,7 +28,7 @@
 	margin-bottom:20px;
 
 	position:relative;
-	animation:text 3s 1;
+	/*animation:text 3s 1;*/
 	font-size:10vmin;
 	display:block;
 }
@@ -38,8 +38,9 @@
 .text2{
     background-color:#ffffff;
     height:2px;
-	width:75vmin;
-	animation:text2 4s 1;
+	width:70vmin;
+	animation:text2 2s 1;
+	line-height: 0px;
 	
 }
 
@@ -47,7 +48,8 @@
 	font-size:4.5vmin;
 	color: #19d1c7;
 
-	animation:text3 4s 1;
+	animation:text3 2s 1;
+		line-height:2vmin;
 	
 }
 
@@ -92,7 +94,7 @@
 
 		opacity:0;
 	}
-	85%{
+	80%{
 
 	opacity:100;
 	}

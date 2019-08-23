@@ -9,19 +9,61 @@
 
 
 .sectionbox{
-	background-color:#363636; 
+	background-color:#242829; 
 
-	box-shadow:inset 0px 3px 1px  rgba(34,34,34,1);
+	box-shadow:inset 0px 6px 1px  rgba(34,34,34,1);
 }
 
 .sectionbox2{
-	background-color:#363636; 
+	background-color:#0e1010; 
 
-	box-shadow:inset 0px 3px 1px  rgba(27,27,27,1);
+	box-shadow:inset 0px 3px 0px 0px  #161819,
+	inset 0px 4px 0px 0px  #62666d;
+
+	
+	min-height:750px;
+	
+	padding-bottom:60px;
+}
+
+.sectionbox3{
+	
+	background-color:#242829; 
+
+	box-shadow:inset 0px 3px 0px 0px  #111111,
+	inset 0px 4px 0px 0px  #7a7f86;
+
 	
 	min-height:600px;
 	
-	padding-bottom:60px;
+	padding-bottom:60px;	
+
+}
+
+.streetview{
+	
+	background-image: url(../images/Streetview.jpg); 
+
+	 background-repeat:no-repeat;
+
+	 background-attachment: fixed;
+	 background-position: center; 
+    background-size: cover;
+
+	
+	
+
+
+
+	
+	min-height:120px;
+	
+	padding-bottom:60px;	
+
+
+
+
+
 }
 
 .footerbox{
@@ -31,9 +73,10 @@
   color:#fffff4; 
   width:100%; 
   height:100%;
+ 
   
-  
-  box-shadow:inset 0px 6px 3px rgba(30,30,30,1);
+	box-shadow:inset 0px 1px 0px 0px  #323839,
+	inset 0px 5px 0px 0px  #0b0b0b;
 }
 
 
