@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
 
-/*¥Ø«ePP1¥Î¨ìªº¦³ªA°È¶µ¥Ø*/
+/*ç›®å‰PP1ç”¨åˆ°çš„æœ‰æœå‹™é …ç›®*/
  
     #pp1 a:link{
-	//³]©wÁÙ¨S¦³ÂsÄı¹Lªº³sµ²
+	//è¨­å®šé‚„æ²’æœ‰ç€è¦½éçš„é€£çµ
 	font-size:5px;
 	color: #19d1c7;
 	text-decoration: none;
 	}
 	#pp1 a:visited {
-	//³]©w¤w¸gÂsÄı¹Lªº³sµ²
+	//è¨­å®šå·²ç¶“ç€è¦½éçš„é€£çµ
 	font-size:5px;
 	color: #19d1c7;
 	text-decoration: none;
 	
 	}
 	#pp1 a:hover {
-	//³]©w·Æ¹«²¾¸gªº³sµ²
+	//è¨­å®šæ»‘é¼ ç§»ç¶“çš„é€£çµ
 	
 
 	text-decoration: underline;
@@ -24,16 +24,17 @@
 	color:#29fff3;
 	}
 	#pp1 a:active {
-	//³]©w¥¿¦bÂI¿ïªº³sµ²
+	//è¨­å®šæ­£åœ¨é»é¸çš„é€£çµ
 	text-decoration:none;
 	
 	
 	color: #19d1c7;
 	}
-	/*³Ì·s®ø®§ªº-----------¥i¯à­n§R¤F*/
+
+	/*æœ€æ–°æ¶ˆæ¯çš„-----------å¯èƒ½è¦åˆªäº†*/
 	
 	.thim-click-to-bottom {
-		/*¤Ş¾É¦¡«ö¶s*/
+		/*å¼•å°å¼æŒ‰éˆ•*/
     position: absolute;
     bottom: 10%;
     left: 50%;
@@ -47,7 +48,7 @@
 
 
 .thim-click-to-bottom i {
-	/*±µ¤Ş¾É¦¡«ö¶s*/
+	/*æ¥å¼•å°å¼æŒ‰éˆ•*/
     color: #fff;
     padding: 20px 10px;
     border: 1px solid;
@@ -55,7 +56,7 @@
 	font-size: 15px;
 }
 	
-/*ªA°È¶µ¥Ø¹Ï¤ù©ñ¤j®ÄªG*/
+/*æœå‹™é …ç›®åœ–ç‰‡æ”¾å¤§æ•ˆæœ*/
 
 .pic {
 	
@@ -65,7 +66,7 @@
 		
 
 
-     /*´ú¸Õ¹ï»ô¥ÎÃä®Ø*/
+     /*æ¸¬è©¦å°é½Šç”¨é‚Šæ¡†*/
      border-style:solid;
     border-width:0px;	
 
@@ -73,7 +74,7 @@
 .pic img{
 
 	  position:absolute;
-      /*´ú¸Õ¹ï»ô¥ÎÃä®Ø*/
+      /*æ¸¬è©¦å°é½Šç”¨é‚Šæ¡†*/
       border-style:solid;
       border-width:0px;	
 	
@@ -98,16 +99,16 @@
 
 
 captiontitle{
- 	font-family: arial,"Microsoft JhengHei","·L³n¥¿¶ÂÅé",sans-serif;
+ 	font-family: arial,"Microsoft JhengHei","å¾®è»Ÿæ­£é»‘é«”",sans-serif;
 	font-size:100em;
  
 }
 	
 	
-/* ?´O */
+/* ?åµŒ */
 
 .serviceitem{
-	/*½Õ¾ãªA°È¶µ¥Ø¦U­Ó¹Ï¥Ü¶¡¶Z ³B²z¦Cªº*/
+	/*èª¿æ•´æœå‹™é …ç›®å„å€‹åœ–ç¤ºé–“è· è™•ç†åˆ—çš„*/
 
   	margin-bottom:30px;
 
@@ -115,7 +116,7 @@ captiontitle{
 
 
 hr.style-six {
-	/*¤À¹j½u¥Î ¦ı²{¦b¨S¥Î¨ì*/
+	/*åˆ†éš”ç·šç”¨ ä½†ç¾åœ¨æ²’ç”¨åˆ°*/
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0,0,0,0.1);
@@ -129,7 +130,7 @@ h3.title {
     font-size: 2.5em;
     text-align: center;
     color: #19d1c7;
-	font-family: arial,"Microsoft JhengHei","·L³n¥¿¶ÂÅé",sans-serif ;
+	font-family: arial,"Microsoft JhengHei","å¾®è»Ÿæ­£é»‘é«”",sans-serif ;
 	
 	font-weight: bold;
 	text-shadow: #303030 5px 5px 1px;
@@ -138,7 +139,7 @@ h3.title {
 
 #TestImg3{
      vertical-align:middle;
-	/*¹Ï¤ù¤å¦r¹ï»ô*/
+	/*åœ–ç‰‡æ–‡å­—å°é½Š*/
 }
 #SeperationLine{
     height:1px;
@@ -153,7 +154,7 @@ h3.title {
 	font-family: 'Noto Sans TC', sans-serif; !important;
 		}
 
-		/*º¡ª©ªº¹Ï*/
+		/*æ»¿ç‰ˆçš„åœ–*/
 .bg { 
   /* The image used */
   background-image: url("../images/College.jpg");
@@ -163,9 +164,9 @@ h3.title {
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;/*¤£­«½Æ¹Ï¤ù*/
-  background-size: cover;/*¨Ï­I´º¹Ï©ñ¤j¦Ü¤º®eªº¤j¤p*/
-  background-attachment:fixed;/*¹Ï¤ù©T©w¡A¤£·|ÀHµÛ¤U©Ô¦Ó²¾°Ê*/
+  background-repeat: no-repeat;/*ä¸é‡è¤‡åœ–ç‰‡*/
+  background-size: cover;/*ä½¿èƒŒæ™¯åœ–æ”¾å¤§è‡³å…§å®¹çš„å¤§å°*/
+  background-attachment:fixed;/*åœ–ç‰‡å›ºå®šï¼Œä¸æœƒéš¨è‘—ä¸‹æ‹‰è€Œç§»å‹•*/
 }
   
  	 .logo {
@@ -192,7 +193,7 @@ h3.title {
 		
 		      float:left;
 
-				/*³Ì·s¸ê°Tªº­I´º³±¼v*/
+				/*æœ€æ–°è³‡è¨Šçš„èƒŒæ™¯é™°å½±*/
                 margin: 20px 0px 0px 0px;
 				padding:0px -50px 50px 0px;
                 
@@ -203,9 +204,9 @@ h3.title {
                 box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.42);
 				
 				border-style:double;
-				border-width:5px;/*®Ø²Ê²Ó*/
+				border-width:5px;/*æ¡†ç²—ç´°*/
 	
-	            border-radius:0px;/*¶ê®Ø¨¤«×*/
+	            border-radius:0px;/*åœ“æ¡†è§’åº¦*/
                 border-color:#bfb49e;
 				
 				padding-bottom:30px;
@@ -282,17 +283,17 @@ h3.title {
 
 
 .contactusframe{
-/*²á¤Ñ¤º®e¤è®Ø*/
+/*èŠå¤©å…§å®¹æ–¹æ¡†*/
 		position:relative;
 	width:calc(100% - 0px);
 	min-height:300px;
 	background:#313232;
-	overflow:hidden;/*Åı¥~®Ø§¹¥ş¥]ÂĞ¤º¤¸¯À*/
+	overflow:hidden;/*è®“å¤–æ¡†å®Œå…¨åŒ…è¦†å…§å…ƒç´ */
 	
 	border-style:solid;
-    border-width:1px;/*®Ø²Ê²Ó*/
+    border-width:1px;/*æ¡†ç²—ç´°*/
 	
-	border-radius:0px;/*¶ê®Ø¨¤«×*/
+	border-radius:0px;/*åœ“æ¡†è§’åº¦*/
     border-color:#4a4a4a;
 }
 
@@ -333,14 +334,14 @@ h3.title {
   line-height: 1.5em;
  color: #ffffff;
  letter-spacing:-5px;
- line-height: 45px;¡@¡@
+ line-height: 45px;ã€€ã€€
  font-weight:bold;
   background-color: #0fc4ba;
   
   border-style:solid;
-    border-width:0px;/*®Ø²Ê²Ó*/
+    border-width:0px;/*æ¡†ç²—ç´°*/
 	
-	border-radius:0px;/*¶ê®Ø¨¤«×*/
+	border-radius:0px;/*åœ“æ¡†è§’åº¦*/
     border-color:#ffffff;
   
   	box-shadow: 1px 1px 0px 0px  #5dd2d3,
