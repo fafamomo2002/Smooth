@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+* @description: 1.版塊陰影、置底陰影、大標文字格式
+* @author: name
+* @update: name (2013-04-13 18:32)
+*/
+
+
+.sectionbox{
+	background-color:#242829; 
+
+	box-shadow:inset 0px 6px 1px  rgba(34,34,34,1);
+}
+
+.sectionbox2{
+	background-color:#0e1010; 
+	background-image:url("../images/com.png");
+
+	box-shadow:inset 0px 3px 0px 0px  #161819,
+	inset 0px 4px 0px 0px  #62666d;
+
+	
+	min-height:750px;
+	
+	padding-bottom:60px;
+}
+
+.sectionbox3{
+	background-color:rgba(255, 255, 255, 0.5);
+	background-color:#242829; 
+	background-image:url("../images/IMGstree.jpg");
+	
+
+  background-position: center;
+  background-repeat: no-repeat;/*不重複圖片*/
+  background-size: cover;/*使背景圖放大至內容的大小*/
+ /* background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/*/
+	
+	box-shadow:inset 0px 3px 0px 0px  #111111,
+	inset 0px 4px 0px 0px  #7a7f86;
+
+	
+	min-height:600px;
+	
+	padding-bottom:60px;	
+
+}
+
+.streetview{
+	
+	background-image: url(../images/Streetview.jpg); 
+
+	 background-repeat:no-repeat;
+
+	 background-attachment: fixed;
+	 background-position: center; 
+    background-size: cover;
+
+	
+	
+
+
+
+	
+	min-height:120px;
+	
+	padding-bottom:60px;	
+
+
+
+
+
+}
+
+.footerbox{
+
+  /*background-color:#272727; */
+  
+  color:#fffff4; 
+  width:100%; 
+  height:100%;
+ 
+  
+	box-shadow:inset 0px 1px 0px 0px  #323839,
+	inset 0px 5px 0px 0px  #0b0b0b;
+}
+
+
+
+
+.h1fonts{
+	
+	
+font-family: "Noto Sans TC", STHeitiTC-Light, "Microsoft JhengHei", sans-serif;
+	
+	}
