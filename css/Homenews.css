@@ -31,20 +31,20 @@ body{
 }
 
 .table{
- background:#434343;
- padding:30px 20px;
+ background:#4d5050;
+ padding:30px 20px 20px 20px;
  font-family:"montserrat",sans-serif;
 
  color:#ffffff;
  position:relative;
  overflow:hidden;/*�۰����öW�X����r�ιϤ��C*/
- box-shadow:5px 5px 1px  #2f3030;/*�ج[���v*/
+ box-shadow:5px 5px 1px  rgba(18,18,18,0.5);/*�ج[���v*/
  
   border-style:solid;
-    border-width:3px;/*框粗細*/
+    border-width:1px;/*框粗細*/
 	
-	border-radius:1px;/*圓框角度*/
-  border-color:#16d4bb;
+	border-radius:5px;/*圓框角度*/
+  border-color:#546161;
   
 
  
@@ -93,18 +93,18 @@ white-space: normal;
 .table a{
 text-decoration:none;
 color:#88dfd6;
-border:2px solid #88dfd6;
+border:2px solid #42a49a;
 display:block;
 padding:10px 0;
 margin:10px 0;
 border-radius:40px;
 text-transform:uppercase;
-font-size:14px;
+font-size:16px;
 transition:0.5s linear;
 }
 	  
 .table a:hover{
- background: #19d1c7;
+ background: #3a988e;
  color:#fff;
 }
 

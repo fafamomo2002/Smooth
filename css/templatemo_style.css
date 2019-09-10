@@ -333,24 +333,23 @@ h3.title {
   position: relative;
   display: inline-block;
 
-  padding: 0 .5em;
+  padding: 0em 0.8em 0.1em 0.8em;
   line-height: 1.5em;
- color: #ffffff;
+ color: #f8f8f8;
  letter-spacing:2px;
  line-height: 45px;　　
  font-weight:bold;
-  background-color: #0fc4ba;
+  background-color: #43afa9;
   
   border-style:solid;
-    border-width:0px;/*框粗細*/
+    border-width:1px;/*框粗細*/
 	
 	border-radius:0px;/*圓框角度*/
-    border-color:#ffffff;
+    border-color:#5ca3a4;
   
-  	box-shadow: 1px 1px 0px 0px  #5dd2d3,
-	4px 6px 0px 0px  #056770,
-	 5px 7px 0px 0px  #ffffff;
-  font-weight:900; 
+  	box-shadow: 0px 0px 0px 0px  #50b6b7,
+	8px 8px 0px 0px  rgba(17,58,62,1);
+  font-weight:600; 
 }
 
 .onlinebutton {
@@ -366,3 +365,50 @@ h3.title {
   cursor: pointer;
 
 }
+
+
+/*聯絡我們圖示*/
+.contactusframe i{
+	background-color:#37a7a1;
+	width:26px;
+	height:26px;
+	font-size:15px;
+	color:#cbcbcb;
+	text-align:center;
+	display:block;
+	float:left;
+	line-height:23px;
+	border: 1.2px solid;
+	box-shadow:3px 3px 1px rgba(30,30,30,0.5);
+
+	border-radius:50%;
+}
+.contactusframe a:link{
+	
+	color:#FFF;
+
+}
+
+.contactusframe a:visited {
+	//設定已經瀏覽過的連結
+	font-size:5px;
+	color:#FFF;
+	text-decoration: none;
+	
+	}
+
+.contactusframe a:hover {
+	//設定滑鼠移經的連結
+	
+
+
+	
+	color:#FFF;
+	}
+.contactusframe a:active {
+	//設定正在點選的連結
+	text-decoration:none;
+	
+	
+	color:#FFF;
+	}
