@@ -458,3 +458,45 @@ h3.title {
 	    list-style: none;
 }
 
+.titleshadow{
+filter: drop-shadow(-3px 3px 1px rgba(0, 0, 0, 0.8))
+
+;
+}
+.diamond{
+
+		position: relative;
+            width:400px;
+            height:350px;
+background-color: rgba(162, 255, 248, 0.66);
+background-image:url(../images/Searipple.png);
+         /*   transform: rotate(45deg);*/
+            margin:auto;
+			padding:0;
+		
+
+			  z-index:-100;
+
+filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
+
+}
+.diamondtow{
+
+		position: absolute;
+            width:430px;
+            height:380px;
+            background-color:rgba(90%, 90%, 90%, 0.2) ;
+ 
+            margin:-15px 0 0 -15px;
+			padding:0 0 0 0;
+
+			
+    border-width: 6px;
+    border-style: solid;
+    border-color: #ffffff;
+		 
+		 z-index:-99;
+
+
+
+}
