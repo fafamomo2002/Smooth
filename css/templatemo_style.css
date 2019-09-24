@@ -169,7 +169,19 @@ h3.title {
   background-size: cover;/*使背景圖放大至內容的大小*/
   background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/
 }
-  
+ .bg:before {
+    content: ' ';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+      background-image: url("../images/College.jpg") center 0 no-repeat;
+    background-size: cover;
+}
+
+
  	 .logo {
   	background-image: url(../images/Balance.svg);
 	}
