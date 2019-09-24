@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+
+/*目前PP1用到的有服務項目*/
+ 
+    #pp1 a:link{
+	//設定還沒有瀏覽過的連結
+	font-size:5px;
+	color: #19d1c7;
+	text-decoration: none;
+	}
+	#pp1 a:visited {
+	//設定已經瀏覽過的連結
+	font-size:5px;
+	color: #19d1c7;
+	text-decoration: none;
+	
+	}
+	#pp1 a:hover {
+	//設定滑鼠移經的連結
+	
+
+	text-decoration: underline;
+	
+	color:#29fff3;
+	}
+	#pp1 a:active {
+	//設定正在點選的連結
+	text-decoration:none;
+	
+	
+	color: #19d1c7;
+	}
+	/*最新消息的-----------可能要刪了*/
+	
+	.thim-click-to-bottom {
+		/*引導式按鈕*/
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+
+
+.thim-click-to-bottom i {
+	/*接引導式按鈕*/
+    color: #fff;
+    padding: 20px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+	font-size: 15px;
+}
+	
+/*服務項目圖片放大效果*/
+
+.pic {
+	
+	  position:relative;
+	    width: 333px;
+        height: 125px;
+		
+
+
+     /*測試對齊用邊框*/
+     border-style:solid;
+    border-width:0px;	
+
+}
+.pic img{
+
+	  position:absolute;
+      /*測試對齊用邊框*/
+      border-style:solid;
+      border-width:0px;	
+	
+	
+ 		top: 50%;
+        left: 50%;
+		transform:translate(-50%,-50%);
+
+	
+	  -webkit-transition: opacity 0.1s ease-in-out;
+	  -moz-transition: opacity 0.1s ease-in-out;
+	  -o-transition: opacity 0.1s ease-in-out;
+	  transition: opacity 0.5s ease-in-out;
+	}
+.pic img:nth-of-type(2):hover{	  
+
+		opacity:0;
+
+}
+
+
+
+
+captiontitle{
+ 	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif;
+	font-size:100em;
+ 
+}
+	
+	
+/* ?嵌 */
+
+.serviceitem{
+	/*調整服務項目各個圖示間距 處理列的*/
+
+  	margin-bottom:30px;
+
+	}
+
+
+hr.style-six {
+	/*分隔線用 但現在沒用到*/
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+	/*width:50%; */
+	
+}
+
+
+h3.title {
+    font-size: 2.5em;
+    text-align: center;
+    color: #19d1c7;
+	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+	
+	font-weight: bold;
+	text-shadow: #303030 5px 5px 1px;
+
+}
+
+#TestImg3{
+     vertical-align:middle;
+	/*圖片文字對齊*/
+}
+#SeperationLine{
+    height:1px;
+    border-top:1px #ccc dashed;
+    margin:10px 0px;
+}
+  
+  body {
+	
+	background-image: url("../images/whitenoise-361x370.png");
+	background-color: #373737;
+	font-family: 'Noto Sans TC', sans-serif; !important;
+	
+	
+		}
+
+		/*滿版的圖*/
+.bg { 
+  /* The image used */
+  background-image: url("../images/College.jpg");
+
+  /* Full height */
+  height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;/*不重複圖片*/
+  background-size: cover;/*使背景圖放大至內容的大小*/
+  background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/
+}
+  
+ 	 .logo {
+  	background-image: url(../images/Balance.svg);
+	}
+	
+	.svg-background {
+		 background-image: url(../images/Balance.svg);
+		 width: 100px;
+		 height: 100px;
+	}	
+	
+	.chul li {
+		margin: 0;
+		padding: 36px 0 36px 84px;
+		list-style: none;
+		list-style-image:url('../images/Paper-Plane-128.png');
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-size: 40px;
+    }
+	
+	.newbox{
+		
+		      float:left;
+
+				/*最新資訊的背景陰影*/
+                margin: 0px 0px 0px 0px;
+
+                
+                /**background-color:rgb(0,152,50);**/
+
+                opacity: 0.99;
+                filter:alpha(opacity=90);
+               /* box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.42);
+				
+				border-style:double;
+				border-width:1px;
+	
+	            border-radius:0px;
+                border-color:#464646;*/
+				
+	
+				
+				
+
+
+            }
+	.artlist ul li{ 
+	list-style:none;
+	line-height:28px;
+
+	
+	} 
+
+	.newbox ul { 
+
+  /*  background-color: #000;*/
+	margin:0;
+	padding:0;
+
+	} 
+
+	.newbox ul li{ 
+	/*list-style:none;*/
+		list-style:none;
+	padding:25px 15px 25px 30px;
+	margin:15px 0px 0 0 ;
+    background-color: #313232;
+	
+	
+	                box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.42);
+				
+				border-style:double;
+				border-width:1px;/*框粗細*/
+	
+	            border-radius:0px;/*圓框角度*/
+                border-color:#464646;
+	} 
+
+	.newbox ul li p{ 
+	color:#c6cac9;
+	margin:5px 0 0px 0;
+		
+	} 
+	
+	.newbox ul li span{ 
+	float:right;
+	padding-right:5px;
+	margin-right:10px;
+	font-size:15px;
+
+	} 
+	
+	
+	
+		#shadowabc{
+			filter:drop-shadow(5px 5px 10px black);
+			/*drop-shadow*/
+		}
+			
+
+	
+
+
+
+	 .btn-outline-light:hover{
+		 color:#333;
+	 }
+	 
+	 .bg-cover{
+		 background-position: center center;
+		 background-attachment:fixed;
+
+	 }
+	 
+	 .bg-attachment{
+		 background-attachment:fixed;
+	 
+	 }
+	 
+	 .navbar-center {
+ 	 	display: inline-block;
+  		float: none;
+ 		 vertical-align: top;
+	}
+
+	.navbar-collapse-center {
+  		text-align: center;
+	}
+	
+
+
+.contactusframe{
+/*聊天內容方框*/
+		position:relative;
+	width:calc(100% - 0px);
+	min-height:300px;
+	background-color:rgba(49,50,50, 0.75);
+	/*background:#313232;*/
+	overflow:hidden;/*讓外框完全包覆內元素*/
+	
+	border-style:solid;
+    border-width:1px;/*框粗細*/
+	
+	border-radius:0px;/*圓框角度*/
+    border-color:#4a4a4a;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline:0px;
+  border: 0px;
+
+
+  font-size: 2em;
+  text-align: center;
+  height: 1.5em;
+  opacity: 1;
+   
+      
+    
+    
+}
+.hr-text:before {
+
+  content: '';
+  background: linear-gradient(to right, transparent, #b2f9fa, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 3px;
+
+ 
+
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+
+  padding: 0em 0.8em 0.1em 0.8em;
+  line-height: 1.5em;
+ color: #f8f8f8;
+ letter-spacing:2px;
+ line-height: 45px;　　
+ font-weight:bold;
+  background-color: #43afa9;
+  
+  border-style:solid;
+    border-width:1px;/*框粗細*/
+	
+	border-radius:0px;/*圓框角度*/
+    border-color:#5ca3a4;
+  
+  	box-shadow: 0px 0px 0px 0px  #50b6b7,
+	8px 8px 0px 0px  rgba(17,58,62,1);
+  font-weight:600; 
+}
+
+.onlinebutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+
+/*聯絡我們圖示*/
+.contactusframe i{
+	background-color:#37a7a1;
+	width:26px;
+	height:26px;
+	font-size:15px;
+	color:#cbcbcb;
+	text-align:center;
+	display:block;
+	float:left;
+	line-height:23px;
+	border: 1.2px solid;
+	box-shadow:3px 3px 1px rgba(30,30,30,0.5);
+
+	border-radius:50%;
+}
+.contactusframe a:link{
+	
+	color:#FFF;
+
+}
+
+.contactusframe a:visited {
+	//設定已經瀏覽過的連結
+	font-size:5px;
+	color:#FFF;
+	text-decoration: none;
+	
+	}
+
+.contactusframe a:hover {
+	//設定滑鼠移經的連結
+	
+
+
+	
+	color:#FFF;
+	}
+.contactusframe a:active {
+	//設定正在點選的連結
+	text-decoration:none;
+	
+	
+	color:#FFF;
+	}
+	
+#nav-link {
+/*新聞列表*/
+	 width: 100%;
+	height: 50px;
+    padding: 0 8px;
+	margin:0;
+    border-top: #594b46 1px solid;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #3b3f3f;
+
+    background-image: -moz-linear-gradient(bottom,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(bottom,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient(bottom,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(bottom,rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+	    list-style: none;
+}
+
+.titleshadow{
+filter: drop-shadow(-3px 3px 1px rgba(0, 0, 0, 0.8))
+
+;
+}
+.diamond{
+		/*公司大標方框*/
+
+		position: relative;
+            width:400px;
+            height:350px;
+background-color: rgba(162, 255, 248, 0.66);
+background-image:url(../images/Searipple.png);
+         /*   transform: rotate(45deg);*/
+            margin:auto;
+			padding:0;
+		
+
+			  z-index:-100;
+
+filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
+
+}
+.diamondtow{
+	/*公司大標方框*/
+
+		position: absolute;
+            width:430px;
+            height:380px;
+            background-color:rgba(90%, 90%, 90%, 0.2) ;
+ 
+            margin:-15px 0 0 -15px;
+			padding:0 0 0 0;
+
+			
+    border-width: 6px;
+    border-style: solid;
+    border-color: #ffffff;
+		 
+		 z-index:-99;
+
+
+
+}
+
+ .imglogo
+{
+	width: 160px;
+	position: absolute;
+	margin:20px 0 0 -80px;
+	padding:0;
+	
+	}
+
+.imgcontext
+{
+	width: 350px;
+	position: absolute;
+	margin:220px 0 0 -170px;
+	padding:0;
+	
+	}
+	
+.engcontext{
+	font-size:20px; 
+	color:#FFF; 
+	position: absolute; 
+	margin:400px 0 0 16px;
+	
+	}
+
+@media(max-width:1200px)
+{
+	
+	
+
+
+}
+@media(max-width:991px)
+{
+	
+
+
+
+@media(max-width:768px)
+{
+	
+		.diamond{
+				/*公司大標方框*/
+		
+				position: relative;
+					width:320px;
+					height:270px;
+		background-color: rgba(162, 255, 248, 0.66);
+		background-image:url(../images/Searipple.png);
+				 /*   transform: rotate(45deg);*/
+					margin:auto;
+					padding:0;
+				
+		
+					  z-index:-100;
+		
+		filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
+		
+		}
+		
+		.diamondtow{
+			/*公司大標方框*/
+		
+				position: absolute;
+					width:350px;
+					height:300px;
+					background-color:rgba(90%, 90%, 90%, 0.2) ;
+		 
+					margin:-15px 0 0 -15px;
+					padding:0 0 0 0;
+		
+					
+			border-width: 6px;
+			border-style: solid;
+			border-color: #ffffff;
+				 
+				 z-index:-99;
+		
+		
+		
+		}
+
+		.imglogo
+		{
+			width: 135px;
+			position: absolute;
+			margin:15px 0 0 -60px;
+			padding:0;
+			
+			}
+		
+		.imgcontext
+		{
+			width: 300px;
+			position: absolute;
+			margin:175px 0 0 -150px;
+			padding:0;
+			
+			}
+		.engcontext{
+			font-size:14px; 
+			color:#FFF; 
+			position: absolute; 
+			margin:300px 0 0 12px;
+		
+		}
+}
