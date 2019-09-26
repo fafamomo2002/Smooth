@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
 
-/*ç›®å‰PP1ç”¨åˆ°çš„æœ‰æœå‹™é …ç›®*/
+/*¥Ø«ePP1¥Î¨ìªº¦³ªA°È¶µ¥Ø*/
  
     #pp1 a:link{
-	//è¨­å®šé‚„æ²’æœ‰ç€è¦½éçš„é€£çµ
+	//³]©wÁÙ¨S¦³ÂsÄı¹Lªº³sµ²
 	font-size:5px;
 	color: #19d1c7;
 	text-decoration: none;
 	}
 	#pp1 a:visited {
-	//è¨­å®šå·²ç¶“ç€è¦½éçš„é€£çµ
+	//³]©w¤w¸gÂsÄı¹Lªº³sµ²
 	font-size:5px;
 	color: #19d1c7;
 	text-decoration: none;
 	
 	}
 	#pp1 a:hover {
-	//è¨­å®šæ»‘é¼ ç§»ç¶“çš„é€£çµ
+	//³]©w·Æ¹«²¾¸gªº³sµ²
 	
 
 	text-decoration: underline;
@@ -24,16 +24,16 @@
 	color:#29fff3;
 	}
 	#pp1 a:active {
-	//è¨­å®šæ­£åœ¨é»é¸çš„é€£çµ
+	//³]©w¥¿¦bÂI¿ïªº³sµ²
 	text-decoration:none;
 	
 	
 	color: #19d1c7;
 	}
-	/*æœ€æ–°æ¶ˆæ¯çš„-----------å¯èƒ½è¦åˆªäº†*/
+	/*³Ì·s®ø®§ªº-----------¥i¯à­n§R¤F*/
 	
 	.thim-click-to-bottom {
-		/*å¼•å°å¼æŒ‰éˆ•*/
+		/*¤Ş¾É¦¡«ö¶s*/
     position: absolute;
     bottom: 10%;
     left: 50%;
@@ -47,7 +47,7 @@
 
 
 .thim-click-to-bottom i {
-	/*æ¥å¼•å°å¼æŒ‰éˆ•*/
+	/*±µ¤Ş¾É¦¡«ö¶s*/
     color: #fff;
     padding: 20px 10px;
     border: 1px solid;
@@ -55,7 +55,7 @@
 	font-size: 15px;
 }
 	
-/*æœå‹™é …ç›®åœ–ç‰‡æ”¾å¤§æ•ˆæœ*/
+/*ªA°È¶µ¥Ø¹Ï¤ù©ñ¤j®ÄªG*/
 
 .pic {
 	
@@ -65,7 +65,7 @@
 		
 
 
-     /*æ¸¬è©¦å°é½Šç”¨é‚Šæ¡†*/
+     /*´ú¸Õ¹ï»ô¥ÎÃä®Ø*/
      border-style:solid;
     border-width:0px;	
 
@@ -73,7 +73,7 @@
 .pic img{
 
 	  position:absolute;
-      /*æ¸¬è©¦å°é½Šç”¨é‚Šæ¡†*/
+      /*´ú¸Õ¹ï»ô¥ÎÃä®Ø*/
       border-style:solid;
       border-width:0px;	
 	
@@ -98,16 +98,16 @@
 
 
 captiontitle{
- 	font-family: arial,"Microsoft JhengHei","å¾®è»Ÿæ­£é»‘é«”",sans-serif;
+ 	font-family: arial,"Microsoft JhengHei","·L³n¥¿¶ÂÅé",sans-serif;
 	font-size:100em;
  
 }
 	
 	
-/* ?åµŒ */
+/* ?´O */
 
 .serviceitem{
-	/*èª¿æ•´æœå‹™é …ç›®å„å€‹åœ–ç¤ºé–“è· è™•ç†åˆ—çš„*/
+	/*½Õ¾ãªA°È¶µ¥Ø¦U­Ó¹Ï¥Ü¶¡¶Z ³B²z¦Cªº*/
 
   	margin-bottom:30px;
 
@@ -115,7 +115,7 @@ captiontitle{
 
 
 hr.style-six {
-	/*åˆ†éš”ç·šç”¨ ä½†ç¾åœ¨æ²’ç”¨åˆ°*/
+	/*¤À¹j½u¥Î ¦ı²{¦b¨S¥Î¨ì*/
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0,0,0,0.1);
@@ -129,7 +129,7 @@ h3.title {
     font-size: 2.5em;
     text-align: center;
     color: #19d1c7;
-	font-family: arial,"Microsoft JhengHei","å¾®è»Ÿæ­£é»‘é«”",sans-serif ;
+	font-family: arial,"Microsoft JhengHei","·L³n¥¿¶ÂÅé",sans-serif ;
 	
 	font-weight: bold;
 	text-shadow: #303030 5px 5px 1px;
@@ -138,7 +138,7 @@ h3.title {
 
 #TestImg3{
      vertical-align:middle;
-	/*åœ–ç‰‡æ–‡å­—å°é½Š*/
+	/*¹Ï¤ù¤å¦r¹ï»ô*/
 }
 #SeperationLine{
     height:1px;
@@ -155,7 +155,7 @@ h3.title {
 	
 		}
 
-		/*æ»¿ç‰ˆçš„åœ–*/
+		/*º¡ª©ªº¹Ï*/
 .bg { 
   /* The image used */
   background-image: url("../images/01.jpg");
@@ -167,9 +167,9 @@ h3.title {
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;/*ä¸é‡è¤‡åœ–ç‰‡*/
-  background-size: cover;/*ä½¿èƒŒæ™¯åœ–æ”¾å¤§è‡³å…§å®¹çš„å¤§å°*/
-  background-attachment:fixed;/*åœ–ç‰‡å›ºå®šï¼Œä¸æœƒéš¨è‘—ä¸‹æ‹‰è€Œç§»å‹•*/
+  background-repeat: no-repeat;/*¤£­«½Æ¹Ï¤ù*/
+  background-size: cover;/*¨Ï­I´º¹Ï©ñ¤j¦Ü¤º®eªº¤j¤p*/
+  background-attachment:fixed;/*¹Ï¤ù©T©w¡A¤£·|ÀHµÛ¤U©Ô¦Ó²¾°Ê*/
 	z-index: -200;
 
 
@@ -195,9 +195,9 @@ background-image: url("../images/College.jpg");
   	height: 100vh; 
  width:100%;
 	/*background-color: rgba(162, 255, 248, 0.66);*/
-	  background-repeat: no-repeat;/*ä¸é‡è¤‡åœ–ç‰‡*/
-  background-size: cover;/*ä½¿èƒŒæ™¯åœ–æ”¾å¤§è‡³å…§å®¹çš„å¤§å°*/
-  background-attachment:fixed;/*åœ–ç‰‡å›ºå®šï¼Œä¸æœƒéš¨è‘—ä¸‹æ‹‰è€Œç§»å‹•*/
+	  background-repeat: no-repeat;/*¤£­«½Æ¹Ï¤ù*/
+  background-size: cover;/*¨Ï­I´º¹Ï©ñ¤j¦Ü¤º®eªº¤j¤p*/
+  background-attachment:fixed;/*¹Ï¤ù©T©w¡A¤£·|ÀHµÛ¤U©Ô¦Ó²¾°Ê*/
  	position: fixed;
 	z-index: -50;
 
@@ -228,7 +228,7 @@ background-image: url("../images/College.jpg");
 		
 		      float:left;
 
-				/*æœ€æ–°è³‡è¨Šçš„èƒŒæ™¯é™°å½±*/
+				/*³Ì·s¸ê°Tªº­I´º³±¼v*/
                 margin: 0px 0px 0px 0px;
 
                 
@@ -276,9 +276,9 @@ background-image: url("../images/College.jpg");
 	                box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.42);
 				
 				border-style:double;
-				border-width:1px;/*æ¡†ç²—ç´°*/
+				border-width:1px;/*®Ø²Ê²Ó*/
 	
-	            border-radius:0px;/*åœ“æ¡†è§’åº¦*/
+	            border-radius:0px;/*¶ê®Ø¨¤«×*/
                 border-color:#464646;
 	} 
 
@@ -336,18 +336,18 @@ background-image: url("../images/College.jpg");
 
 
 .contactusframe{
-/*èŠå¤©å…§å®¹æ–¹æ¡†*/
+/*²á¤Ñ¤º®e¤è®Ø*/
 		position:relative;
 	width:calc(100% - 0px);
 	min-height:300px;
 	background-color:rgba(49,50,50, 0.75);
 	/*background:#313232;*/
-	overflow:hidden;/*è®“å¤–æ¡†å®Œå…¨åŒ…è¦†å…§å…ƒç´ */
+	overflow:hidden;/*Åı¥~®Ø§¹¥ş¥]ÂĞ¤º¤¸¯À*/
 	
 	border-style:solid;
-    border-width:1px;/*æ¡†ç²—ç´°*/
+    border-width:1px;/*®Ø²Ê²Ó*/
 	
-	border-radius:0px;/*åœ“æ¡†è§’åº¦*/
+	border-radius:0px;/*¶ê®Ø¨¤«×*/
     border-color:#4a4a4a;
 }
 
@@ -389,14 +389,14 @@ background-image: url("../images/College.jpg");
   line-height: 1.5em;
  color: #f8f8f8;
  letter-spacing:2px;
- line-height: 45px;ã€€ã€€
+ line-height: 45px;¡@¡@
  font-weight:bold;
   background-color: #43afa9;
   
   border-style:solid;
-    border-width:1px;/*æ¡†ç²—ç´°*/
+    border-width:1px;/*®Ø²Ê²Ó*/
 	
-	border-radius:0px;/*åœ“æ¡†è§’åº¦*/
+	border-radius:0px;/*¶ê®Ø¨¤«×*/
     border-color:#5ca3a4;
   
   	box-shadow: 0px 0px 0px 0px  #50b6b7,
@@ -419,7 +419,7 @@ background-image: url("../images/College.jpg");
 }
 
 
-/*è¯çµ¡æˆ‘å€‘åœ–ç¤º*/
+/*Ápµ¸§Ú­Ì¹Ï¥Ü*/
 .contactusframe i{
 	background-color:#37a7a1;
 	width:26px;
@@ -442,7 +442,7 @@ background-image: url("../images/College.jpg");
 }
 
 .contactusframe a:visited {
-	//è¨­å®šå·²ç¶“ç€è¦½éçš„é€£çµ
+	//³]©w¤w¸gÂsÄı¹Lªº³sµ²
 	font-size:5px;
 	color:#FFF;
 	text-decoration: none;
@@ -450,7 +450,7 @@ background-image: url("../images/College.jpg");
 	}
 
 .contactusframe a:hover {
-	//è¨­å®šæ»‘é¼ ç§»ç¶“çš„é€£çµ
+	//³]©w·Æ¹«²¾¸gªº³sµ²
 	
 
 
@@ -458,7 +458,7 @@ background-image: url("../images/College.jpg");
 	color:#FFF;
 	}
 .contactusframe a:active {
-	//è¨­å®šæ­£åœ¨é»é¸çš„é€£çµ
+	//³]©w¥¿¦bÂI¿ïªº³sµ²
 	text-decoration:none;
 	
 	
@@ -466,7 +466,7 @@ background-image: url("../images/College.jpg");
 	}
 	
 #nav-link {
-/*æ–°èåˆ—è¡¨*/
+/*·s»D¦Cªí*/
 	 width: 100%;
 	height: 50px;
     padding: 0 8px;
@@ -498,7 +498,7 @@ filter: drop-shadow(-3px 3px 1px rgba(0, 0, 0, 0.8))
 ;
 }
 .diamond{
-		/*å…¬å¸å¤§æ¨™æ–¹æ¡†*/
+		/*¤½¥q¤j¼Ğ¤è®Ø*/
 
 		position: relative;
             width:400px;
@@ -516,7 +516,7 @@ filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
 
 }
 .diamondtow{
-	/*å…¬å¸å¤§æ¨™æ–¹æ¡†*/
+	/*¤½¥q¤j¼Ğ¤è®Ø*/
 
 		position: absolute;
             width:430px;
@@ -574,7 +574,7 @@ filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
 {
 	
 		.diamond{
-				/*å…¬å¸å¤§æ¨™æ–¹æ¡†*/
+				/*¤½¥q¤j¼Ğ¤è®Ø*/
 		
 				position: relative;
 					width:320px;
@@ -593,7 +593,7 @@ filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
 		}
 		
 		.diamondtow{
-			/*å…¬å¸å¤§æ¨™æ–¹æ¡†*/
+			/*¤½¥q¤j¼Ğ¤è®Ø*/
 		
 				position: absolute;
 					width:350px;
@@ -644,7 +644,7 @@ filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
 {
 	
 		.diamond{
-				/*å…¬å¸å¤§æ¨™æ–¹æ¡†*/
+				/*¤½¥q¤j¼Ğ¤è®Ø*/
 		
 				position: relative;
 					width:300px;
@@ -663,7 +663,7 @@ filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
 		}
 		
 		.diamondtow{
-			/*å…¬å¸å¤§æ¨™æ–¹æ¡†*/
+			/*¤½¥q¤j¼Ğ¤è®Ø*/
 		
 				position: absolute;
 					width:330px;
