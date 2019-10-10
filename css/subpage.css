@@ -11,15 +11,15 @@
 .sectionbox{
 	background-color:#242829; 
 
-	box-shadow:inset 0px 6px 1px  rgba(34,34,34,1);
+	box-shadow:inset 0px 6px 3px  rgba(5,5,5,1);
 }
 
 .sectionbox2{
 	background-color:#0e1010; 
 	background-image:url("../images/com.png");
 
-	box-shadow:inset 0px 3px 0px 0px  #161819,
-	inset 0px 4px 0px 0px  #62666d;
+	box-shadow:inset 0px 5px 10px 0px  #1b1d1d,
+	inset 0px 6px 0px 0px  #000000;
 
 	
 	min-height:750px;
@@ -36,10 +36,10 @@
   background-position: center;
   background-repeat: no-repeat;/*不重複圖片*/
   background-size: cover;/*使背景圖放大至內容的大小*/
- /* background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/*/
+ /* background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/
 	
-	box-shadow:inset 0px 3px 0px 0px  #111111,
-	inset 0px 4px 0px 0px  #7a7f86;
+	box-shadow:inset 0px 5px 5px 0px  #111111,
+	inset 0px 6px 0px 0px  #000;
 
 	
 	min-height:600px;

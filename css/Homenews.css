@@ -52,7 +52,7 @@ body{
 }
 
 .table h2{
- text-transform:uppercase;/*��r���j�g*/
+ text-transform:uppercase;/*控制文章中的文字字母大小寫*/
    font-size:25px;
    
    color:#19d1c7;
@@ -70,12 +70,12 @@ padding:0;
  list-style:none;
  text-align:left;
  
-/*�o�|��O����h��e�{...*/
+/*多行限制*/
 overflow:hidden;
 white-space: nowrap;
 text-overflow: ellipsis;
 display: -webkit-box;
--webkit-line-clamp: 4;
+-webkit-line-clamp: 5;
 -webkit-box-orient: vertical;
 white-space: normal;
 }
