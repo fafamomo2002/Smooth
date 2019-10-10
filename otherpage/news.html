@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="Shortcut Icon" type="image/x-icon" href="../images/favicon.ico" /> </link>
+  
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -27,6 +28,7 @@
 
 <link href="../css/subpage.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="../css/libs/animate.css" type="text/css">  
+<link rel="stylesheet" href="../css/Slide.css">
 
 
 
@@ -74,14 +76,12 @@ $(document).ready(function (){
                 html.push(
 						  "<li>",
 						  
-					"<a href='https://www.google.com/'>",index, b.Subject ,"<br>",   "</a>",
-                          "<p>", b.content,"<p>","<br>", 
-                         "<span>", b.time, "</span>","<br>","<br>"
+					"<a href=","../otherpage/article.html?name=",index ,">","<h2>", b.Subject ,"</h2>",   "</a>",
+					"<span>", b.time, "</span>","<br>",
+                          "<p>", b.content,"<p>", 
+                         
 						  
-						  
-              ,"<a  href='https://www.google.com/'>","<span >","☛  &ensp;view more","</span>","</a>"
-						  
-						  ,"</li>"
+						"</li>"
 						  
 						  
 						  
@@ -90,6 +90,14 @@ $(document).ready(function (){
 						  
 						  
 						  												);
+				
+				
+						function jump1(){
+				            url = "b.html?name="+name+"&age="+age;//此处拼接内容
+				            window.location.href = url;
+				        }			
+				
+				
 				 };
             });
  
@@ -108,6 +116,23 @@ $(document).ready(function (){
         });
     });
 });
+
+
+        $(function(){
+             name = $("#name").text();
+             age = $("#age").text();
+
+            $("#btn").on("click",function(){
+               jump1();
+            });
+        });
+
+        function jump1(){
+            url = "b.html?name="+name+"&age="+age;//此处拼接内容
+            window.location.href = url;
+        }
+
+
 </script>
 
 <style type="text/css">
@@ -137,36 +162,26 @@ $(document).ready(function (){
 
   <!-- <header class="header d-flex justify-content-center align-items-center ">-->
 <header class=" bg d-flex justify-content-center align-items-center">
-<div class="Hiddenbox">
-</div>
-     <div class="container1">
-       <div class="text1 wow fadeInDown" style="padding:35px 0 0 0; ">
-      <div class="diamond"> 
-      
-              <div class="diamondtow"> </div>
-                
-                <img class="imglogo"  src="../images/logo02.svg" >
-       			<img class="titleshadow imgcontext" src="../images/logo.svg" >
-              
-               <span class="engcontext" >Yuan Hua Law Office</span>
-      
-      </div>
- 
-
-             
 <!--
-       <span style="font-size:8.5vmin;" ><strong>元華法律事務所</strong></span>
-       <span  style="font-size:4.5vmin;" >Yuan Hua Law Office</span>
-       -->
-        </div>
-  <!--          <hr class="text2" style="border:1;" />
-    <span class="text3"><strong> 專業&ensp;&ensp; 誠信 &ensp;&ensp; 平等</strong></span>
-  -->
-        <!-- <div class="mt-4">      
-       <a href="#service" class="btn btn-outline-info">Get started</a>    
-       </div>-->
-     
-     </div>
+<div class="Hiddenbox">
+</div>-->
+
+<div id="slider">
+<figure>
+<img src="../images/slider1.jpg" alt="">
+<img src="../images/slider2.jpg" alt="">
+<img src="../images/slider3.jpg" alt="">
+<img src="../images/slider4.jpg" alt="">
+<img src="../images/slider2.jpg" alt="">
+</figure>
+</div>
+
+<div class="container1">
+		<div class="text1 wow fadeInDown" style="padding:35px 0 0 0; ">
+                       <img class="titleshadow wow fadeInDown Distinguishedtext"  src="../images/logo01.svg"  >
+
+       	</div>    
+ 	 </div>
 
 </header>
   
@@ -192,11 +207,7 @@ $(document).ready(function (){
       <li class="nav-item" style="font-size: 1.2rem;">
         <a class="nav-link" href="../otherpage/news.html">最新消息</a>
       </li>
-      
-      <li class="nav-item" style="font-size: 1.2rem;">
-        <a class="nav-link" href="../otherpage/Legalcounsel.html">法律顧問</a>
-      </li>      
-      
+
       <li class="nav-item" style="font-size: 1.2rem;">
         <a class="nav-link" href="../otherpage/team.html">團隊介紹 </a>
       </li>
@@ -222,7 +233,7 @@ $(document).ready(function (){
 </nav>
   
   <section class="py-5 sectionbox" id="service">
-   <div class="container ">
+   <div class="container">
  
        <h3 class="text-center title wow fadeInDown"><img id="TestImg3" src="../images/Student-Laptop-128.png"> 最新消息</h3>
        
@@ -231,186 +242,19 @@ $(document).ready(function (){
   
        <div class="row"  style="width:90vmin; margin:0 auto; padding-bottom:50px;">
        
-    <ul id="nav-link">
-
-      <li><h5 class="text-left"  style="color:#e5f2f1; padding-left:0.1em; padding-top:0.1em; "><img id="TestImg3" src="../images/Paper-Plane-48.png"  ><strong> 新聞列表</strong></h5></li>
-
-    </ul> 
-               
-       
-         <div id="pp1" class=" newbox " >
-         	
- 
-                  		
-         		 
-                 
-                  
-                 
-                 
-                 
-      
-                 
-                 
-                 
-                 
-         	 
- 
-            <ul class="text-align:center;  " style="list-style-image:url('../images/Paper-Plane-128.png'); position:relative; margin:0;  ">
-
-
-            
-			　<li>
-             <a  href="https://www.google.com/"><span style="padding-right:20px;">2019/06/04</span>  併購盡職調查莫忘個資保護─英國重罰企業新台幣38億！	</a>
-             
-             <P>新北市日前發生一起車禍，一名男子將機車借給沒駕照者使用，結果酒駕肇事，無照駕駛者身亡。法院審理後，依照過失致人於死罪，將借出機車的男子判刑。檢方提醒，依照《道路交通管理處罰條例》規定，「允許」無照者使用車輛，車主就要負擔責任。</P>
-              
-              <a  href="https://www.google.com/"><span style="padding:0 25px 0px 0;  text-align:right; ">☛  &ensp;view more</span></a>
-              
-              <br style="clear:left; " />
-              
-             
-       
-            </li>
-            
-            
-            
-            
-			　<li>
-             <a href="https://www.google.com/"><span style="padding-right:20px;">2019/03/21</span>  【不小心山寨了商標！該怎麼辦?!】	</a>
-             <P>新北市日前發生一起車禍，一名男子將機車借給沒駕照者使用，結果酒駕肇事，無照駕駛者身亡。法院審理後，依照過失致人於死罪，將借出機車的男子判刑。檢方提醒，依照《道路交通管理處罰條例》規定，「允許」無照者使用車輛，車主就要負擔責任。</P>
-              
-              <a  href="https://www.google.com/"><span style="padding:0 25px 0px 0;  text-align:right; ">☛  &ensp;view more</span></a>
-              
-              <br style="clear:left; " />
-              
-             
-          
-            </li>            
-			　<li>
-             <a href="https://www.google.com/"><span style="padding-right:20px;">2019/06/10</span>   律師：《逃犯條例》若通過　台灣人過境香港可被引渡大陸	</a>
-             <P>新北市日前發生一起車禍，一名男子將機車借給沒駕照者使用，結果酒駕肇事，無照駕駛者身亡。法院審理後，依照過失致人於死罪，將借出機車的男子判刑。檢方提醒，依照《道路交通管理處罰條例》規定，「允許」無照者使用車輛，車主就要負擔責任。</P>
-              
-              <a  href="https://www.google.com/"><span style="padding:0 25px 0px 0;  text-align:right; ">☛  &ensp;view more</span></a>
-              
-              <br style="clear:left; " />
-              
-             
-         
-            </li> 
-            
-			　<li>
-             <a href="https://www.google.com/"><span style="padding-right:20px;">2018/12/19 </span>  撞超跑天價賠償　網籲「超跑條款」設上限引議(壹電視)	</a>
-             <P>新北市日前發生一起車禍，一名男子將機車借給沒駕照者使用，結果酒駕肇事，無照駕駛者身亡。法院審理後，依照過失致人於死罪，將借出機車的男子判刑。檢方提醒，依照《道路交通管理處罰條例》規定，「允許」無照者使用車輛，車主就要負擔責任。</P>
-              
-              <a  href="https://www.google.com/"><span style="padding:0 25px 0px 0;  text-align:right; ">☛  &ensp;view more</span></a>
-              
-              <br style="clear:left; " />
-              
-             
-         
-            </li> 			　
-             
-			　<li>
-             <a href="https://www.google.com/"><span style="padding-right:20px;">2018/09/21</span> 限縮公民權陷違憲爭議　高孔廉批雙重標準	</a>
-             <P>新北市日前發生一起車禍，一名男子將機車借給沒駕照者使用，結果酒駕肇事，無照駕駛者身亡。法院審理後，依照過失致人於死罪，將借出機車的男子判刑。檢方提醒，依照《道路交通管理處罰條例》規定，「允許」無照者使用車輛，車主就要負擔責任。</P>
-              
-              <a  href="https://www.google.com/"><span style="padding:0 25px 0px 0;  text-align:right; ">☛  &ensp;view more</span></a>
-              
-              <br style="clear:left; " />
-              
-             
-           
-            </li> 
-			
-            　<li>
-             <a href="https://www.google.com/"><span style="padding-right:20px;">2016/06/04</span> 拿惡鄰沒轍？網友推「樓吵剋星」錄音反制卻恐觸法</a>
-             <P>新北市日前發生一起車禍，一名男子將機車借給沒駕照者使用，結果酒駕肇事，無照駕駛者身亡。法院審理後，依照過失致人於死罪，將借出機車的男子判刑。檢方提醒，依照《道路交通管理處罰條例》規定，「允許」無照者使用車輛，車主就要負擔責任。</P>
-              
-              <a  href="https://www.google.com/"><span style="padding:0 25px 0px 0;  text-align:right; ">☛  &ensp;view more</span></a>
-              
-              <br style="clear:left; " />
-              
-             
-          
-            </li> 
-
-            　<li>
-             <a href="https://www.google.com/"><span style="padding-right:20px;">2014/06/24</span>  中天台灣大搜索節目~熊律師談吳宗憲掏空案</a>
-             <P>新北市日前發生一起車禍，一名男子將機車借給沒駕照者使用，結果酒駕肇事，無照駕駛者身亡。法院審理後，依照過失致人於死罪，將借出機車的男子判刑。檢方提醒，依照《道路交通管理處罰條例》規定，「允許」無照者使用車輛，車主就要負擔責任。</P>
-              
-              <a  href="https://www.google.com/"><span style="padding:0 25px 0px 0;  text-align:right; ">☛  &ensp;view more</span></a>
-              
-              <br style="clear:left; " />
-              
-             
-          
-            </li> 
-             
- 
-           </ul>
-           		<div style="text-align:right; padding-bottom: 1em;">
-              		<a href="https://www.google.com/" style="color:#19d1c7; "></a>
-              	</div> 
-                
-               
-               
-               
-               
-               
-               
-               
-               
-         
-               
-               
-     <a name="#ajax-getjson-example"></a>
-<div id="example-section38">    
-    <div>汽車銷售報表</div>
-    <div id="div381"></div>
-    <button id="btn382" type="button">點我載入最新消息表單 (json type)</button>    
-    &nbsp;<a href="../backend/data/car-sale.json" target="_blank">原始最新消息表單</a>
-</div>
-
-
-
-    	<ul id="div385">
-        
-        </ul>       
-
-    
-    &nbsp;<a href="../backend/data/car-sale.json" target="_blank">原始最新消息表單</a>
-         
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-                
-                
-                            
-                         
-         </div>
-         
-         
-         
-
-       
+        <ul id="nav-link">
+          <li><h5 class="text-left"  style="color:#e5f2f1; padding-left:0.1em; padding-top:0.1em; "><img id="TestImg3" src="../images/Paper-Plane-48.png"  ><strong> 新聞列表</strong></h5></li>
+        </ul>                 
+                 <div id="pp1" class=" newbox " >
+                                                 
+                        <ul id="div385">        
+                        </ul>              
+                                 
+                 </div>
+                      
        </div>
      </div>
-    
-    
-     
-     
+ 
   </section>
 
 
