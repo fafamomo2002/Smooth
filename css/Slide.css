@@ -1,49 +1,44 @@
-﻿
-
-      @keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
-}
-
-body { margin: 0; } 
-div#slider { overflow: hidden;
-
-height: 100vh; 
-	background-color:#FFF;
-	  background-repeat: no-repeat;/*不重複圖片*/
-  background-size: cover;/*使背景圖放大至內容的大小*/
-  background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/
- 	position: fixed; 
-    z-index: -45;
-}
-div#slider figure img { width: 20%; float: left;
-height: 100vh; 
-	background-color:#FFF;
-	  background-repeat: no-repeat;/*不重複圖片*/
-  background-size: cover;/*使背景圖放大至內容的大小*/
-  background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/
-
-    z-index: -45;
-
-}
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite; 
+﻿		.flexslider *{margin:0;padding:0;list-style-type:none;}
+		.flexslider a,img{border:0;}
+		/* flexslider */
+		.flexslider{position:relative;overflow:hidden;
+		  height: 100vh; 
+  max-width:100%;
   
- 
-}
+
+
+  
+  
+   background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+			z-index:-5;
+		
+		
+		}
+		.slides{position:relative;z-index:1;
+		
+		
+		}
+		.slides li{height:100vh;
+		 background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+		
+		
+		
+		}
+		.flex-control-nav{position:absolute;bottom:10px;z-index:2;width:100%;text-align:center;}
+		.flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}
+		.flex-control-nav a{display:inline-block;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(../images/dot.png) right 0 no-repeat;cursor:pointer;}
+		.flex-control-nav .flex-active{background-position:0 0;}
+
+		.flex-direction-nav{position:absolute;z-index:3;width:100%;top:45%;}
+		.flex-direction-nav li a{display:block;width:50px;height:50px;overflow:hidden;cursor:pointer;position:absolute;}
+		.flex-direction-nav li a.flex-prev{left:40px;background:url(../images/prev.png) center center no-repeat;}
+		.flex-direction-nav li a.flex-next{right:40px;background:url(../images/next.png) center center no-repeat;}
 
 @media(max-width:1200px)
 {
@@ -56,10 +51,7 @@ div#slider figure {
 {
 	
 
-div#slider figure img { width: 240vh; 
-
-}			
-		
+	
 		
 		}
 
@@ -67,9 +59,7 @@ div#slider figure img { width: 240vh;
 {
 	
 
-div#slider figure img { width: 240vh; 
-
-}		
+	
 					
 
 		
