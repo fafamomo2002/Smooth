@@ -1,5 +1,6 @@
 ﻿		.flexslider *{margin:0;padding:0;list-style-type:none;}
-		.flexslider a,img{border:0;}
+		.flexslider a,img{border:0;
+		z-index:-5;}
 		/* flexslider */
 		.flexslider{position:relative;overflow:hidden;
 		  height: 100vh; 
@@ -13,11 +14,11 @@
             background-attachment: fixed;
             background-position: center;
             background-size: cover;
-			z-index:-5;
+			z-index:1;
 		
 		
 		}
-		.slides{position:relative;z-index:1;
+		.slides{position:relative;
 		
 		
 		}
