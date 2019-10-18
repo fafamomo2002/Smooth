@@ -36,28 +36,28 @@
 	}
 
 .m_li a:link{
-	color:#C93;
+	color:#e2e2e2;
 	font-size:25px;
 	text-decoration:none;
 }
 
 .m_li a:visited{
 /*設定已經瀏覽過的連結*/
-	color:#C93;
+	color:#e2e2e2;
 	font-size:25px;
 	text-decoration:none;
 }
 
 .m_li a:hover{
 /*設定滑鼠移經的連結*/
-	color:#C93;
+	color:#ffffff;
 	font-size:25px;
 	text-decoration:none;
 }
 
 .m_li a:active{
 /*設定正在點選的連結*/
-	color:#C93;
+	color:#ffffff;
 	font-size:25px;
 	text-decoration:none;
 }
