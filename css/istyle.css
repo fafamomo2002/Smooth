@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+.mobile { display:none;}
+
+.bott {
+ padding: 8px 16px;
+    border: 1px #19d1c7 solid;
+    color: #19d1c7;
+    font-size: 20px;
+	  
+}
+.bott:hover {
+    padding: 8px 16px;
+    border: 1px #19d1c7 solid;
+    background: #19d1c7;
+    color: #fff;
+}
+
+.m_bottom {
+	    position: fixed;
+    width: 100%;
+    background: #000;
+    left: 0px;
+    bottom: 0px;
+    z-index: 9999;
+  
+	
+	}
+.m_li {
+	    width: 50%;
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+	    padding: 10px 0px;
+	}
+
+.m_li a:link{
+	color:#C93;
+	font-size:25px;
+	text-decoration:none;
+}
+
+.m_li a:visited{
+/*設定已經瀏覽過的連結*/
+	color:#C93;
+	font-size:25px;
+	text-decoration:none;
+}
+
+.m_li a:hover{
+/*設定滑鼠移經的連結*/
+	color:#C93;
+	font-size:25px;
+	text-decoration:none;
+}
+
+.m_li a:active{
+/*設定正在點選的連結*/
+	color:#C93;
+	font-size:25px;
+	text-decoration:none;
+}
+
+
+@media only screen and (max-width: 1680px) {
+
+}
+
+@media only screen and (max-width: 1366px) {
+
+    
+}
+
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media (min-width: 1200px){
+
+}
+  
+}
+
+@media only screen and (max-width: 990px) {
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+.mobile { display:inherit;}	
+
+.bott {
+ padding: 8px 16px;
+    border: 1px #19d1c7 solid;
+    color: #19d1c7;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 8px;	
+	
+	
+	}
+	
+	}
+
+@media only screen and (max-width: 480px) {
+
+    
+.bott {
+ padding: 8px 16px;
+    border: 1px #19d1c7 solid;
+    color: #19d1c7;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 8px;	
+	
+	
+	}
+
