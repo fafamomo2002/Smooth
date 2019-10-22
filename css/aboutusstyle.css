@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.aboutuscontext{
+	text-align:left;
+	}
+
+.aboutuscontext p{
+	text-indent:30px;
+	font-size: 18px;
+	font-family: arial, "Microsoft JhengHei", "微軟正黑體", sans-serif;
+	letter-spacing:1.5px;　 
+	ine-height:5em;
+	width:100%;
+	padding:15px 0
+}
+
+.aboutusimg{
+	
+
+	float: right;
+	margin: 0 0 1em 2.5em; 
+	padding:0 0 0em 0;
+	border-style:solid; 
+	border-color:#333; 
+	border-width:2px; 
+	display:  block;
+	
+	}
+
+
+@media(max-width:1200px)
+{
+	
+	
+
+}
+@media(max-width:991px)
+{
+	
+
+}
+
+@media(max-width:768px)
+{
+	.aboutusimg{
+	
+
+
+	margin: 0 2.5em 3em 2.5em; 
+	padding:0 0 0em 0;
+	border-style:solid; 
+	border-color:#333; 
+	border-width:2px; 
+	display:  block;
+	
+	}
+
+}
+
+
+@media(max-width:480px)
+{
+
+	.aboutusimg{
+	
+
+
+	margin: 0 1em 3em 2em; 
+	padding:0 0 0em 0;
+	border-style:solid; 
+	border-color:#333; 
+	border-width:2px; 
+	display:  block;
+	
+	}
+
+}

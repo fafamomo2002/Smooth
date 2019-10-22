@@ -23,14 +23,34 @@
 .text5{
 	
 	
-	
 	position:relative;
 	
-	font-size:30vmin;
+	font-size:15vmin;
 	 text-align: center;
-	width:40%;
 
-	margin:-50vh 0 0 0;
+	height:15VH;
+
+
+
+	
+	
+
+
+
+}
+
+.text6{
+	
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:600px;
+  padding:2em 1em 1em 0em;
+
+	
+	
+
 
 
 }
@@ -125,14 +145,7 @@
    .text5{
 	
 	
-	
-	position:relative;
-	
-	font-size:30vmin;
-	 text-align: center;
-	width:40%;
 
-	margin:-50vh 0 0 0;
 
 
 }  
@@ -172,6 +185,18 @@
 margin:-55vh 0 0 0;
 
 }
+
+.text6{
+	
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:90vw;
+  padding:1em 0 2em 0 ;
+
+}
+
 	
 	}
 
@@ -189,6 +214,15 @@ margin:-55vh 0 0 0;
 
 
 margin:-55vh 0 0 0;
+
+}
+
+.text6{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:90vw;
+  padding:3em 0 1em 0 ;
 
 }
 
