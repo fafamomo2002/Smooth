@@ -96,3 +96,25 @@
 font-family: "Noto Sans TC", STHeitiTC-Light, "Microsoft JhengHei", sans-serif;
 	
 	}
+	
+	
+@media only screen and (max-width: 768px) {
+
+.footerbox{
+
+	padding-bottom:25px;
+}
+
+	
+	}
+
+@media only screen and (max-width: 480px) {
+
+
+.footerbox{
+
+	padding-bottom:45px;
+}
+
+
+	}	
