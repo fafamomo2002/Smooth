@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
 
 /*目前PP1用到的有服務項目*/
@@ -98,7 +99,7 @@
 
 
 captiontitle{
- 	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif;
+
 	font-size:100em;
  
 }
@@ -126,13 +127,25 @@ hr.style-six {
 
 
 h3.title {
-    font-size: 2.5em;
+
     text-align: center;
     color: #19d1c7;
-	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+
+
+    font-size: 2.3em;
+	text-shadow: #202020 2px 2px 3px;
+
+}
+
+
+h3.titleSmallprint {
+    font-size: 1.8em;
+    text-align: center;
+    color: #e0e0e0;
+
 	
 	font-weight: bold;
-	text-shadow: #303030 5px 5px 1px;
+	text-shadow: #141414 2px 2px 3px;
 
 }
 
@@ -149,8 +162,10 @@ h3.title {
   body {
 	
 	/*background-image: url("../images/whitenoise-361x370.png");*/
+		font-family: 'Noto Sans TC', sans-serif;!important;
+		font-weight:200;
 
-	font-family: 'Noto Sans TC', sans-serif; !important;
+
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
