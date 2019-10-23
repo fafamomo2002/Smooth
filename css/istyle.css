@@ -3,14 +3,14 @@
 .mobile { display:none;}
 
 .bott {
- padding: 8px 16px;
+ padding: 0.5vh 1vh;
     border: 1px #19d1c7 solid;
     color: #19d1c7;
-    font-size: 20px;
+    font-size: 2.5vh;
 text-decoration:none;	  
 }
 .bott:hover {
-    padding: 8px 16px;
+ padding: 0.5vh 1vh;
     border: 1px #19d1c7 solid;
     background: #19d1c7;
     color: #fff;
@@ -94,12 +94,11 @@ text-decoration:none;
 .mobile { display:inherit;}	
 
 .bott {
- padding: 8px 10px;
+ padding: 0.5vh 1vh;
     border: 1px #19d1c7 solid;
     color: #19d1c7;
-    font-size: 16px;
-	margin:0px;
-
+    font-size: 2.5vh;
+text-decoration:none;	
 	
 	
 	}
@@ -110,10 +109,11 @@ text-decoration:none;
 
     
 .bott {
- padding: 8px 8px;
+ padding: 0.5vh 1vh;
     border: 1px #19d1c7 solid;
     color: #19d1c7;
-    font-size: 10px;
+    font-size: 2.5vh;
+text-decoration:none;	
 
 	
 	
