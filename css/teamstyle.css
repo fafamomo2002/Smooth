@@ -26,7 +26,7 @@
 	width:calc(80% - 20px);
 	min-height:380px;
 	background:#313232;
-	margin:10px;
+	margin:20px;
 	box-sizing:border-box;
 	
 	
@@ -215,7 +215,7 @@ font-size:16px;
 	{
 		width: calc(100% - 20px);
 		
-		margin:10px auto;
+		margin:30px auto;
 	}
 	.card .details
 	{
@@ -241,7 +241,7 @@ font-size:16px;
 	.card
 	{
 		width: calc(76% - 10px);
-		margin:10px auto;
+		margin:20px auto;
 	}
 		.card .imgBx
 	{
