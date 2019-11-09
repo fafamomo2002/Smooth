@@ -35,10 +35,13 @@
 	
 
 height:15vh;
-	
+
+}
+
+.text7{
 	
 
-
+height:15vh;
 
 }
 
@@ -177,8 +180,14 @@ margin:-55vh 0 0 0;
 	
 
 height:15vh;
-width:80vw;
+
 	
+
+}
+.text7{
+	
+
+height:15vh;
 
 }
 
@@ -204,8 +213,14 @@ margin:-55vh 0 0 0;
 
 .text6{
 height:15vh;
-width:80vw;	
+width:20vw;	
 
+}
+.text7{
+	
+
+height:15vh;
+width:60vw;	
 }
 
 	}
