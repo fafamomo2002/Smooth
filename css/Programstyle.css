@@ -38,6 +38,7 @@ table th {
 table td, table th {
     text-align: left
 	color: #4b979a;
+	font-weight: 600;
 }
 
 table td {
