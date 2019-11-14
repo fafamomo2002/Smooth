@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
 
 /*目前PP1用到的有服務項目*/
@@ -98,7 +99,7 @@
 
 
 captiontitle{
- 	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif;
+
 	font-size:100em;
  
 }
@@ -126,13 +127,25 @@ hr.style-six {
 
 
 h3.title {
-    font-size: 2.5em;
+
     text-align: center;
     color: #19d1c7;
-	font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif ;
+
+
+    font-size: 2.3em;
+	text-shadow: #202020 2px 2px 3px;
+
+}
+
+
+h3.titleSmallprint {
+    font-size: 1.8em;
+    text-align: center;
+    color: #e0e0e0;
+
 	
 	font-weight: bold;
-	text-shadow: #303030 5px 5px 1px;
+	text-shadow: #141414 2px 2px 3px;
 
 }
 
@@ -148,28 +161,67 @@ h3.title {
   
   body {
 	
-	background-image: url("../images/whitenoise-361x370.png");
-	background-color: #373737;
-	font-family: 'Noto Sans TC', sans-serif; !important;
-	
+	/*background-image: url("../images/whitenoise-361x370.png");*/
+		font-family: 'Noto Sans TC', sans-serif;!important;
+		font-weight:200;
+
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
 	
 		}
 
 		/*滿版的圖*/
 .bg { 
   /* The image used */
-  background-image: url("../images/College.jpg");
+  background:url("../images/01.jpg") no-repeat; 
+  opacity:1;
 
   /* Full height */
   height: 100vh; 
+  max-width:100%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;/*不重複圖片*/
   background-size: cover;/*使背景圖放大至內容的大小*/
   background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/
-}
+	z-index: -200;
+
+
   
+}
+/* .bg:before {
+    content: ' ';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+      background-image: url("../images/College.jpg") center 0 no-repeat;
+    background-size: cover;
+
+}
+*/
+.Hiddenbox
+{
+	/*position:relative;*/
+background-image: url("../images/College.jpg");
+  	height: 100vh; 
+ width:100%;
+	/*background-color: rgba(162, 255, 248, 0.66);*/
+	  background-repeat: no-repeat;/*不重複圖片*/
+  background-size: cover;/*使背景圖放大至內容的大小*/
+  background-attachment:fixed;/*圖片固定，不會隨著下拉而移動*/
+ 	position: fixed;
+	z-index: -50;
+
+}
+
+
  	 .logo {
   	background-image: url(../images/Balance.svg);
 	}
@@ -232,32 +284,72 @@ h3.title {
 	} 
 
 	.newbox ul li{ 
+
+/*	max-width: 600px;*/
+
+	
 	/*list-style:none;*/
-		list-style:none;
-	padding:25px 15px 25px 30px;
-	margin:15px 0px 0 0 ;
+	list-style:none;
+	padding:35px 35px 35px 30px;
+	margin:10px 3px 0px 3px ;
     background-color: #313232;
 	
 	
-	                box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.42);
-				
-				border-style:double;
-				border-width:1px;/*框粗細*/
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.42);
 	
-	            border-radius:0px;/*圓框角度*/
-                border-color:#464646;
+	border-bottom-style:solid;
+	border-right-style:solid;
+	/*border-style:double;*/
+	border-width:1px;/*框粗細*/
+	
+	border-radius:0px;/*圓框角度*/
+    border-color:#464646;
+				
+				
+			
+
 	} 
+
+	.newbox ul li h2{ 
+
+	text-transform:uppercase;/*控制文章中的文字字母大小寫*/
+   font-size:25px;
+   
+   color:#19d1c7;
+ /*overflow:hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;*/
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:1;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+
+	}
 
 	.newbox ul li p{ 
 	color:#c6cac9;
 	margin:5px 0 0px 0;
-		
+	
+	/*多行限制*/	
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:3;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+
+
 	} 
 	
 	.newbox ul li span{ 
-	float:right;
-	padding-right:5px;
-	margin-right:10px;
+	color:#CCC;
+	float:left;
+	padding-right:0px;
+	margin-right:0px;
 	font-size:15px;
 
 	} 
@@ -304,7 +396,7 @@ h3.title {
 .contactusframe{
 /*聊天內容方框*/
 		position:relative;
-	width:calc(100% - 0px);
+	width:calc(100% - 0);
 	min-height:300px;
 	background-color:rgba(49,50,50, 0.75);
 	/*background:#313232;*/
@@ -315,7 +407,50 @@ h3.title {
 	
 	border-radius:0px;/*圓框角度*/
     border-color:#4a4a4a;
+	margin-bottom:5em;
 }
+
+.hr-text2 {
+   line-height: 1em;
+  position: relative;
+
+
+
+  font-size: 2em;
+
+  height: 1.5em;
+  opacity: 1;
+  
+  
+  
+    padding: 0em 0.8em 0.1em 0.8em;
+  line-height: 1.5em;
+ color: #f8f8f8;
+ letter-spacing:2px;
+ line-height: 45px;　　
+ font-weight:bold;
+  background-color: #43afa9;
+  
+  border-style:solid;
+    border-width:1px;/*框粗細*/
+	
+	border-radius:0px;/*圓框角度*/
+    border-color:#5ca3a4;
+  
+  	box-shadow: 0px 0px 0px 0px  #50b6b7,
+	8px 8px 0px 0px  rgba(17,58,62,1);
+  font-weight:600; 
+  
+
+
+
+
+   
+      
+    
+    
+}
+
 
 .hr-text {
   line-height: 1em;
@@ -529,6 +664,37 @@ filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
 	
 	}
 
+.Distinguishedtext
+{
+
+
+	width:800px; 
+	margin-top:-5em;
+	
+
+
+	}
+
+.buttonbox{
+	background-color:#0F0F0F;
+	border-style:solid;
+	border-color:#333;
+	border-width:1px;
+	color:#fff;
+	padding:10px 10px 10px 10px;
+}
+
+.theGgoldglitter{
+	height:75vh; 
+	background:url(../images/slider1.jpg) no-repeat;   
+	background-position:50% 50%; 
+	background-repeat: no-repeat; 
+	background-size: cover; z-index:-10;
+	
+	
+	}
+
+
 @media(max-width:1200px)
 {
 	
@@ -537,12 +703,6 @@ filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
 
 }
 @media(max-width:991px)
-{
-	
-
-
-
-@media(max-width:768px)
 {
 	
 		.diamond{
@@ -610,4 +770,136 @@ filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
 			margin:300px 0 0 12px;
 		
 		}
+		
+		.Distinguishedtext
+	{
+	width:800px; 
+	margin-top:-5em;
+	
+	}
+	
+
+
+}
+@media(max-width:900px)
+{
+
+	.theGgoldglitter{
+	height:75vh; 
+	background:url(../images/slider3.jpg) no-repeat;   
+	background-position:50% 50%; 
+	background-repeat: no-repeat; 
+	background-size: cover; z-index:-10;
+	
+	
+	}
+	
+}
+
+@media(max-width:768px)
+{
+	
+		.diamond{
+				/*公司大標方框*/
+		
+				position: relative;
+					width:300px;
+					height:250px;
+		background-color: rgba(162, 255, 248, 0.66);
+		background-image:url(../images/Searipple.png);
+				 /*   transform: rotate(45deg);*/
+					margin:auto;
+					padding:0;
+				
+		
+					  z-index:-100;
+		
+		filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.3))
+		
+		}
+		
+		.diamondtow{
+			/*公司大標方框*/
+		
+				position: absolute;
+					width:330px;
+					height:280px;
+					background-color:rgba(90%, 90%, 90%, 0.2) ;
+		 
+					margin:-15px 0 0 -15px;
+					padding:0 0 0 0;
+		
+					
+			border-width: 6px;
+			border-style: solid;
+			border-color: #ffffff;
+				 
+				 z-index:-99;
+		
+		
+		
+		}
+
+		.imglogo
+		{
+			width: 135px;
+			position: absolute;
+			margin:15px 0 0 -60px;
+			padding:0;
+			
+			}
+		
+		.imgcontext
+		{
+			width: 280px;
+			position: absolute;
+			margin:165px 0 0 -140px;
+			padding:0;
+			
+			}
+		.engcontext{
+			font-size:12px; 
+			color:#FFF; 
+			position: absolute; 
+			margin:300px 0 0 12px;
+		
+		}
+		
+		.Distinguishedtext
+	{
+	width:8em; 
+	margin-top:-5em;
+	
+	}
+	.theGgoldglitter{
+	height:75vh; 
+	background:url(../images/slider3.jpg) no-repeat;   
+	background-position:50% 50%; 
+	background-repeat: no-repeat; 
+	background-size: cover; z-index:-10;
+	
+	
+	}	
+		
+}
+
+@media(max-width:600px)
+{
+	
+	.theGgoldglitter{
+	height:75vh; 
+	background:url(../images/slider2.jpg) no-repeat;   
+	background-position:50% 50%; 
+	background-repeat: no-repeat; 
+	background-size: cover; z-index:-10;
+	
+	
+	}
+	
+}
+@media(max-width:480px)
+{
+	
+
+	
 }
