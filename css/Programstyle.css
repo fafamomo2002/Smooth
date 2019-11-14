@@ -1,11 +1,10 @@
-<!--  place the contents of this css file, in the <head></head> of your html page when using 
-the responsive table generator code on sites not in UNLcms or the UNL.edu framework -->
 
-<style>
+
+
 table {
     width: 100%;
     max-width: 100%;
-    border: 1px solid #d5d5d2;
+    border: 0px solid #d5d5d2;
     border-collapse: collapse;
 	color: #4b979a;
 
@@ -122,4 +121,3 @@ table td {
 }
 
 
-</style>
