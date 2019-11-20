@@ -73,6 +73,7 @@ $(document).ready(function (){
                 html.push("<h5>", b.Subject,"</h5>" ,"<br>", 
                        "<p>" , b.content,"</p>","<br>",  
                        "<span>",   "時間 : ", b.time,"</span>", "<br>", "<br>",
+                 <!--      "<span>",   "tag : ", b.tag,"</span>", "<br>", "<br>",-->
 						  
 
 						  
@@ -96,6 +97,7 @@ $(document).ready(function (){
 			$("#div385").addClass("articlebox articleboxfocus");
 			$("#div385").addClass("articlebox bullelements");
 			$("#div385").addClass("articlebox strong");
+			$("#div385").addClass("articlebox tableinherit");
         }).error(function(jqXHR, textStatus, errorThrown){ /* assign handler */
             /* alert(jqXHR.responseText) */
             alert("error occurred!");
@@ -257,7 +259,7 @@ $(document).ready(function (){
        
          
   
-       <div class="row"  style="width:90vmin; margin:0 auto; padding-bottom:50px;">
+       <div class="row"  style="width:100%; margin:0 auto; padding-bottom:50px;">
        
     <ul id="nav-link">
 
@@ -266,7 +268,7 @@ $(document).ready(function (){
     </ul> 
                
        
-         <div id="pp1" class=" newbox " >
+         <div id="pp1" class=" newbox " style="width:100%; margin:0 auto; ">
 
 
                             <div id="div385"></div>

@@ -37,6 +37,22 @@
 
 <!-- Javascript -->
 <script type="text/javascript">
+        $(function(){
+           getData2();
+        });
+
+
+        function getData2(){
+            var tagsticker = $.query.get("tagsticker");
+
+
+            $("#tagsticker").text(tagsticker);
+
+        }
+
+<!------------------------------->
+
+
 $(document).ready(function (){
     $("#btn382").click(function(){        
         /* set no cache */
@@ -72,9 +88,9 @@ $(document).ready(function (){
  
             /* loop through array */
             $.each(data, function(index, b){ 
-				if( b.tag <= 8){	
+				<!--if( b.tag == 'tagsticker'){	-->	
 							
-				<!--if( b.tag == 1){		-->	
+				if( b.tag == 1){		
 				<!--if( index <= '3'){		-->		  
                 html.push(
 						  "<li>",
@@ -140,19 +156,7 @@ $(document).ready(function (){
 
 <!------------------------------------------------------->
 
-        $(function(){
-             tagsticker = $("#tagsticker").text();
 
-
-            $("#btn2").on("click",function(){
-               jump2();
-            });
-        });
-
-        function jump2(){
-            url = "news2.html?tagsticker="+tagsticker;//此处拼接内容
-            window.location.href = url;
-        }
 
 </script>
 
@@ -327,8 +331,7 @@ $(document).ready(function (){
  
  
  
- 
-                 					        <div class="newtag "  >
+                 					        <div class="newtag "   >
         
                                                    <ul class="justify-content-center align-items-center" >
                                               <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news.html#news" >
@@ -386,10 +389,7 @@ $(document).ready(function (){
                                                  
                         <ul id="div385">        
                         </ul> 
-										<!---測試	   <div id="tagsticker">2</div>
-
-  												    <button id="btn2">跳转</button>---->
-
+<!--測試  <div style="color:#FFF;" id="tagsticker"></div>-->
                  </div>
                       
        </div>
