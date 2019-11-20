@@ -8,7 +8,7 @@
     /*  opacity: 0.99;
     filter:alpha(opacity=90);*/
 	padding:25px 34px 25px 34px;
-	margin:3px 2px 0 2px ;
+	margin:3px 0px 0 0px ;
     background-color: #313232;
 	
 	
@@ -22,6 +22,7 @@
 	border-radius:0px;/*圓框角度*/
     border-color:#464646;
 	font-size:18px;
+width:100%;
 
 }
 .articlebox h5
@@ -57,7 +58,7 @@
 }
 
 	.articlebox articleboxfocus{ 
-	color:#ff0000;
+	color:#19d1c7;
 
 	padding-right:0px;
 	margin-right:0px;
@@ -77,11 +78,71 @@
 
  
 }
+.articlebox tableinherit{
+ 
+  background-image:url("../images/inherit.png");
 
-@media screen and (max-width:980px){
+
+ background-repeat: no-repeat;
+background-size:100%;
+color:#C90;
+
+font-size:25em;
+width: calc(100% - 80px);
+    HEIGHT: auto;
+padding:0;
+margin:0;
+
+ 
+}
+
+@media screen and (max-width:990px){
+
+.articlebox tableinherit{
+ 
+ 
+
+
+font-size:18em;
+
+
+ 
+}
 
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:780px){
 
+.articlebox tableinherit{
+ 
+ 
+
+
+font-size:15em;
+
+
+ 
+}
+
+}
+@media screen and (max-width:570px){
+.articlebox tableinherit{
+ 
+
+background-size:calc(100% - 0%);
+
+font-size:12em;
+ 
+}
+}
+
+@media screen and (max-width:480px){
+.articlebox tableinherit{
+ 
+
+background-size:calc(100% - 0%);
+
+font-size:12em;
+ 
+}
 }
