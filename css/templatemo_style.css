@@ -298,6 +298,16 @@ background-image: url("../images/College.jpg");
 	margin-bottom:5em;
 }
 
+.contactusframe p{
+/*聊天內容方框文字*/
+text-indent: 0px;
+    margin-left: 40px;
+    font-size: 16px;
+    padding: 0 0 0px 0;
+    line-height: 32px;
+
+}
+
 .hr-text2 {
    line-height: 1em;
   position: relative;
@@ -423,6 +433,9 @@ background-image: url("../images/College.jpg");
 	box-shadow:3px 3px 1px rgba(30,30,30,0.5);
 
 	border-radius:50%;
+
+    padding-top: 1px;
+    margin-top: 5px;
 }
 .contactusframe a:link{
 	
