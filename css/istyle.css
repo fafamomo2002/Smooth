@@ -105,6 +105,14 @@ text-decoration:none;
 	
 	
 	}
+
+.bott:hover {
+ padding: 0.5vh 0.2vh;
+    border: 1px #19d1c7 solid;
+
+    font-size: 2vh;
+text-decoration:none;	
+}
 	
 	}
 
@@ -121,5 +129,13 @@ text-decoration:none;
 	
 	
 	}
+
+.bott:hover {
+ padding: 0.5vh 0.2vh;
+    border: 1px #19d1c7 solid;
+
+    font-size: 1.5vh;
+text-decoration:none;	
+}
 
 	}
