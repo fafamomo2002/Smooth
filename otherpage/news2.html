@@ -53,29 +53,26 @@
 <!------------------------------->
 
 
-$(document).ready(function (){
-    $("#btn382").click(function(){        
-        /* set no cache */
-        $.ajaxSetup({ cache: false });
- 
-        $.getJSON("../backend/data/car-sale.json", function(data){ 
-            var html = [];
- 
-            /* loop through array */
-            $.each(data, function(index, b){            
-                html.push("Subject : ", b.Subject, ", ",
-                          "content : ", b.content, ", ", 
-                          "time : ", b.time, "<br>");
-            });
- 
- 
-            $("#div381").html(html.join('')).css("background-color", "orange");
-        }).error(function(jqXHR, textStatus, errorThrown){ /* assign handler */
-            /* alert(jqXHR.responseText) */
-            alert("error occurred!");
-        });
-    });
-});
+
+        $(function(){
+           getData1();
+        });
+
+
+        function getData1(){
+            var name = $.query.get("name");
+            var age = $.query.get("age");
+
+            $("#name").text(name);
+            $("#age").text(age);
+        }
+
+
+
+
+
+
+
 
 $(document).ready(function (){
 	$("#div385").ready(function() {
@@ -88,9 +85,9 @@ $(document).ready(function (){
  
             /* loop through array */
             $.each(data, function(index, b){ 
-				<!--if( b.tag == 'tagsticker'){	-->	
+				if( b.tag == tagsticker ){	
 							
-				if( b.tag == 1){		
+				<!--if( b.tag == 1){-->			
 				<!--if( index <= '3'){		-->		  
                 html.push(
 						  "<li>",
@@ -98,7 +95,7 @@ $(document).ready(function (){
 					"<a href=","../otherpage/article.html?name=",index,"#articlesub" ,">","<h2>", b.Subject ,"</h2>",   "</a>",
 					"<time>", b.time, "</time>","<br>",
                           "<p>", b.content,"</p>", 
-<!--"<p>", b.tag,"</p>", -->	
+<!--"<p>", tagsticker,"</p>", -->
                          
 						  
 						"</li>"
@@ -141,7 +138,7 @@ $(document).ready(function (){
 
         $(function(){
              name = $("#name").text();
-             age = $("#age").text();
+             tagsticker = $("#tagsticker").text();
 
             $("#btn").on("click",function(){
                jump1();
@@ -334,37 +331,43 @@ $(document).ready(function (){
                  					        <div class="newtag "   >
         
                                                    <ul class="justify-content-center align-items-center" >
+
+                                          <!--    <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=1#news" >
+                                                      
+                                                      測試用欄位
+                                              </a>-->
+
                                               <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news.html#news" >
                                                       
                                                       顯示全部
                                               </a>
      
                                                       
-                                              <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news3.html#news" >
+                                              <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news" >
                                                       
                                                       法律新知
                                               </a>
                                                       
                                                       
-                                               <a class="newbott " data-wow-delay="1.0s" style="display: inline-block;" href="../otherpage/news3.html#news">
+                                               <a class="newbott " data-wow-delay="1.0s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news">
                                                      
                                                       刑事專欄
                                                 </a>
                                                       
-                                                <a class="newbott" data-wow-delay="1.2s" style="display: inline-block;" href="../otherpage/news3.html#news">
+                                                <a class="newbott" data-wow-delay="1.2s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news">
                                                      民事專欄
                                                 </a>
                                          
                                        			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=1#news"> 
                                                      家事專欄
                                                  </a>
-                                       			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news3.html#news"> 
+                                       			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news"> 
                                                      智財專欄
                                                  </a>
-                                       			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news3.html#news"> 
+                                       			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news"> 
                                                      稅務會計
                                                  </a>                                       			
-                                                 <a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news3.html#news"> 
+                                                 <a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news"> 
                                                      其他法律問題
                                                  </a>                                                                                                    
                                                   </ul>
@@ -389,12 +392,12 @@ $(document).ready(function (){
                                                  
                         <ul id="div385">        
                         </ul> 
-<!--測試  <div style="color:#FFF;" id="tagsticker"></div>-->
+
                  </div>
-                      
+                  
        </div>
      </div>
- 
+  <div  id="tagsticker"></div>   <!--TAG 標籤代號 -->
   </section>
 
 

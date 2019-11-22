@@ -72,7 +72,7 @@ $(document).ready(function (){
  
             /* loop through array */
             $.each(data, function(index, b){ 
-				if( b.tag <= 8){	
+				if( b.tag <= 10000){	
 							
 				<!--if( b.tag == 1){		-->	
 				<!--if( index <= '3'){		-->		  
@@ -125,7 +125,7 @@ $(document).ready(function (){
 
         $(function(){
              name = $("#name").text();
-             age = $("#age").text();
+             tagsticker = $("#tagsticker").text();
 
             $("#btn").on("click",function(){
                jump1();
@@ -331,37 +331,43 @@ $(document).ready(function (){
                  					        <div class="newtag "  >
         
                                                    <ul class="justify-content-center align-items-center" >
+
+                                          <!--    <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=1#news" >
+                                                      
+                                                      測試用欄位
+                                              </a>-->
+
                                               <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news.html#news" >
                                                       
                                                       顯示全部
                                               </a>
      
                                                       
-                                              <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news3.html#news" >
+                                              <a class="newbott " data-wow-delay="0.8s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news" >
                                                       
                                                       法律新知
                                               </a>
                                                       
                                                       
-                                               <a class="newbott " data-wow-delay="1.0s" style="display: inline-block;" href="../otherpage/news3.html#news">
+                                               <a class="newbott " data-wow-delay="1.0s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news">
                                                      
                                                       刑事專欄
                                                 </a>
                                                       
-                                                <a class="newbott" data-wow-delay="1.2s" style="display: inline-block;" href="../otherpage/news3.html#news">
+                                                <a class="newbott" data-wow-delay="1.2s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news">
                                                      民事專欄
                                                 </a>
                                          
                                        			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=1#news"> 
                                                      家事專欄
                                                  </a>
-                                       			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news3.html#news"> 
+                                       			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news"> 
                                                      智財專欄
                                                  </a>
-                                       			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news3.html#news"> 
+                                       			<a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news"> 
                                                      稅務會計
                                                  </a>                                       			
-                                                 <a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news3.html#news"> 
+                                                 <a class="newbott" data-wow-delay="1.4s" style="display: inline-block;" href="../otherpage/news2.html?tagsticker=12#news"> 
                                                      其他法律問題
                                                  </a>                                                                                                    
                                                   </ul>
@@ -386,10 +392,8 @@ $(document).ready(function (){
                                                  
                         <ul id="div385">        
                         </ul> 
-										<!---測試	   <div id="tagsticker">2</div>
-
-  												    <button id="btn2">跳转</button>---->
-
+<!--  <div id="tagsticker">2</div>
+<button id="btn2">測試Tag跳转</button>-->
                  </div>
                       
        </div>
